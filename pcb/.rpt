@@ -1,0 +1,206 @@
+** Drc report for /home/jason/ownCloud/Etherkit/git/Empyrean/pcb/Empyrean.kicad_pcb **
+** Created on 2016-08-13 13:52:38 **
+
+** Found 65 DRC errors **
+ErrType(19): Pad near pad
+    @ (131.610 mm,104.415 mm): Pad 9 on F.Cu, B.Cu, Internal, Non-copper of J2
+    @ (131.610 mm,105.685 mm): Pad 10 on F.Cu, B.Cu, Internal, Non-copper of J2
+ErrType(19): Pad near pad
+    @ (131.610 mm,105.685 mm): Pad 10 on F.Cu, B.Cu, Internal, Non-copper of J2
+    @ (132.880 mm,105.685 mm): Pad 8 on F.Cu, B.Cu, Internal, Non-copper of J2
+ErrType(19): Pad near pad
+    @ (132.880 mm,104.415 mm): Pad 7 on F.Cu, B.Cu, Internal, Non-copper of J2
+    @ (132.880 mm,105.685 mm): Pad 8 on F.Cu, B.Cu, Internal, Non-copper of J2
+ErrType(19): Pad near pad
+    @ (132.880 mm,105.685 mm): Pad 8 on F.Cu, B.Cu, Internal, Non-copper of J2
+    @ (134.150 mm,105.685 mm): Pad 6 on F.Cu, B.Cu, Internal, Non-copper of J2
+ErrType(19): Pad near pad
+    @ (134.150 mm,104.415 mm): Pad 5 on F.Cu, B.Cu, Internal, Non-copper of J2
+    @ (134.150 mm,105.685 mm): Pad 6 on F.Cu, B.Cu, Internal, Non-copper of J2
+ErrType(19): Pad near pad
+    @ (134.150 mm,105.685 mm): Pad 6 on F.Cu, B.Cu, Internal, Non-copper of J2
+    @ (135.420 mm,105.685 mm): Pad 4 on F.Cu, B.Cu, Internal, Non-copper of J2
+ErrType(19): Pad near pad
+    @ (135.420 mm,104.415 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of J2
+    @ (135.420 mm,105.685 mm): Pad 4 on F.Cu, B.Cu, Internal, Non-copper of J2
+ErrType(19): Pad near pad
+    @ (135.420 mm,105.685 mm): Pad 4 on F.Cu, B.Cu, Internal, Non-copper of J2
+    @ (136.690 mm,105.685 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of J2
+ErrType(19): Pad near pad
+    @ (136.690 mm,104.415 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of J2
+    @ (136.690 mm,105.685 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of J2
+ErrType(7): Via near track
+    @ (132.770 mm,138.020 mm): Track 0.200 mm, net [DM] (19) on layer B.Cu, length: 4.862 mm
+    @ (133.250 mm,134.350 mm): Via 0.400 mm net [GND] (1) on layers F.Cu/B.Cu
+ErrType(7): Via near track
+    @ (132.770 mm,138.020 mm): Track 0.200 mm, net [DM] (19) on layer B.Cu, length: 4.862 mm
+    @ (133.250 mm,136.900 mm): Via 0.400 mm net [GND] (1) on layers F.Cu/B.Cu
+ErrType(22): Copper area inside copper area
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(22): Copper area inside copper area
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.000 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (130.000 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (129.850 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (129.850 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (129.850 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (129.850 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (129.850 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (129.850 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.500 mm,140.900 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (130.500 mm,140.900 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (137.800 mm,140.900 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (137.800 mm,140.900 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.500 mm,140.900 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (130.500 mm,140.900 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.500 mm,140.900 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (130.500 mm,140.900 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (137.800 mm,140.900 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (137.800 mm,140.900 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.450 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (138.450 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.450 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (138.450 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.450 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (138.450 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.300 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (138.300 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.450 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (138.450 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.450 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (138.450 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (129.850 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (129.850 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (129.850 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+    @ (129.850 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(22): Copper area inside copper area
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(22): Copper area inside copper area
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.300 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (138.300 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.300 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (138.300 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.300 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (138.300 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.300 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (138.300 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.300 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (138.300 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (137.800 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (137.800 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.300 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (138.300 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (138.300 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (138.300 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (137.800 mm,140.900 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (137.800 mm,140.900 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (137.800 mm,140.900 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (137.800 mm,140.900 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (137.950 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.500 mm,140.900 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.500 mm,140.900 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.500 mm,140.900 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.500 mm,140.900 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (137.800 mm,140.900 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (137.800 mm,140.900 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.350 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.500 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.500 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.500 mm,140.900 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.500 mm,140.900 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.000 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.000 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.000 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.000 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.500 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.500 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.000 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.000 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.000 mm,143.000 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.000 mm,143.000 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.000 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.000 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.000 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.000 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (130.000 mm,145.600 mm): Zone Outline  (00000000) [GND] on F.Cu
+    @ (130.000 mm,145.600 mm): Zone Outline  (00000000) [Net-(C1-Pad2)] on F.Cu
+
+** Found 1 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (126.550 mm,114.250 mm): Pad 6 on F.Cu, B.Cu, Internal, Non-copper of J4 net GND
+    @ (129.200 mm,114.350 mm): Pad 2 on F.Cu, Non-copper of C5
+
+** End of Report **
