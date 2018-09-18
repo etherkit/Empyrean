@@ -1,0 +1,43 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,,C,C6 C8 C10 C11 C12,100n,C_0603,5,
+2,,C,C2 C7,10u,C_0603,2,
+3,,C,C4 C5,15,C_0603,2,
+4,,C,C3 C9,1u,C_0603,2,
+5,,C,C1,4.7n,C_0603,1,
+6,,LED,D3,Blue,Lite-On_LTST-C170,1,
+7,,LED,D4,Green,Lite-On_LTST-C170,1,
+8,,LED,D1,Red,Lite-On_LTST-C170,1,
+9,,LED,D2,Yellow,Lite-On_LTST-C170,1,
+10,,FUSE,F1,Bel 0ZCH0050FF2G,R_1210,1,
+11,,CONN_01X15,J4 J5,CONN_01X15,Pin_Header_Straight_1x15_NoBorder,2,
+12,,USB_OTG,J1,FCI 10118194-0001LF,FCI_10118194-0001LF,1,
+13,,CONN_02X05,J2,Harwin M50-3500542,Harwin_M50-3500542,1,
+14,,CONN_01X03,J3,SPI,Pin_Header_Straight_1x03_NoBorder,1,
+15,,JUMPER,JP1,Power LED Enable,SOLDER_JUMPER,1,
+16,,L,L1,10u,R_0603,1,
+17,,MOS_N,Q1 Q4,DMG1012UW-7,SOT523,2,
+18,,MOS_P,Q2 Q3,DMG1013T-7,SOT523,2,
+19,,R,R5 R7 R8,100k,R_0603,3,
+20,,R,R10,10k,R_0603,1,
+21,,R,R2,1M,R_0603,1,
+22,,R,R1 R3 R4 R6 R9 R11,330,R_0603,6,
+23,,PUSHBUTTON,S1,Alps SKQMASE010,Alps_SKQMASE010,1,
+24,,ATSAMD21G18A,U2,ATSAMD21GxA,TQFP-48_7x7mm_Pitch0.5mm,1,DOCUMENTATION
+25,,LP2985,U1,LP2985,SOT23-5,1,
+26,,VR,VR1 VR2,CG0603MLC-05E,R_0603,2,
+27,,CRYSTAL,X1,ECS-.327-12.5-34B-TR,ECS_ECS-.327-12.5-34B-TR,1,
+
+
+
+
+
+Component Groups:,27
+Component Count:,45
+Fitted Components:,45
+Number of PCBs:,1
+Total components:,45
+Schematic Version:,A
+Schematic Date:,2017-03-04
+BoM Date:,Tue 18 Sep 2018 02:25:04 PM PDT
+Schematic Source:,/home/jason/Nextcloud/Etherkit/git/Empyrean/pcb/Empyrean.sch
+KiCad Version:,Eeschema 5.0.0-fee4fd1~66~ubuntu18.04.1

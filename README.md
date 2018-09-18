@@ -10,5 +10,5 @@
 4. Next, find the entry for ```Etherkit SAMD Boards```, select it, and click the install button. Close the Boards Manager window when this is complete.
 5. In the ```Tools > Boards``` menu, you should now see Empyrean Alpha and Empyrean Beta listed as board options. Select the appropriate board in order to start uploading sketches to your Empyrean.
 
-### USB-UART (CDC) and Other Serial.
+### USB-UART (CDC) and Other Serial
 You can access the built-in USB-UART (virtual serial port) by using the ```SerialUSB``` object in your sketch, just as you use ```Serial``` in AVR-powered Arduinos. You can also use pins 0 and 1 of Empyrean as a hardware serial port with the ```Serial1``` object.
