@@ -1,43 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:EtherkitKicadLibrary
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:Empyrean-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Empyrean Alpha/Beta"
-Date "2017-03-04"
-Rev "A"
+Date "2018-11-28"
+Rev "B"
 Comp "Etherkit"
 Comment1 ""
 Comment2 ""
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 "Creative Commons CC-BY_SA 4.0"
 $EndDescr
 $Comp
-L ATSAMD21G18A U2
+L Empyrean-rescue:ATSAMD21G18A U2
 U 1 1 57A6661C
 P 5740 4740
 F 0 "U2" H 5740 4785 50  0000 C CNN
@@ -56,18 +26,18 @@ F 3 "DOCUMENTATION" H 5740 4740 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG J1
+L Empyrean-rescue:USB_OTG J1
 U 1 1 57A66B51
 P 1010 1230
-F 0 "J1" V 640 1605 50  0000 C CNN
-F 1 "FCI 10118194-0001LF" V 715 1210 50  0000 C CNN
+F 0 "J1" V 435 1620 50  0000 C CNN
+F 1 "FCI 10118194-0001LF" V 535 1225 50  0000 C CNN
 F 2 "EtherkitKicadLibrary:FCI_10118194-0001LF" V 960 1130 60  0001 C CNN
 F 3 "" V 960 1130 60  0000 C CNN
 	1    1010 1230
 	0    -1   1    0   
 $EndComp
 $Comp
-L VR VR1
+L Empyrean-rescue:VR VR1
 U 1 1 57A66D8A
 P 2150 1580
 F 0 "VR1" H 2130 1220 50  0000 C TNN
@@ -78,7 +48,7 @@ F 3 "" H 2150 1580 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VR VR2
+L Empyrean-rescue:VR VR2
 U 1 1 57A66E0C
 P 2460 1580
 F 0 "VR2" H 2605 1645 50  0000 C TNN
@@ -89,7 +59,7 @@ F 3 "" H 2460 1580 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L Empyrean-rescue:R R2
 U 1 1 57A66E86
 P 1570 1710
 F 0 "R2" H 1680 1750 50  0000 C CNN
@@ -100,7 +70,7 @@ F 3 "" H 1570 1710 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L Empyrean-rescue:C C1
 U 1 1 57A66F0D
 P 1360 1695
 F 0 "C1" H 1205 1730 50  0000 C CNN
@@ -111,7 +81,7 @@ F 3 "" H 1360 1695 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOS_P Q3
+L Empyrean-rescue:MOS_P Q3
 U 1 1 57A66FE6
 P 3185 1130
 F 0 "Q3" V 3425 1335 50  0000 R CNN
@@ -122,7 +92,7 @@ F 3 "" H 3185 1130 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R8
+L Empyrean-rescue:R R8
 U 1 1 57A671AE
 P 3510 1250
 F 0 "R8" H 3620 1290 50  0000 C CNN
@@ -133,29 +103,29 @@ F 3 "" H 3510 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FUSE F1
+L Empyrean-rescue:FUSE F1
 U 1 1 57A67536
-P 1790 1030
-F 0 "F1" H 1680 1225 50  0000 C CNN
-F 1 "Bel 0ZCH0050FF2G" H 1995 1150 50  0000 C CNN
-F 2 "Resistors_SMD:R_1210" H 1790 1030 60  0001 C CNN
-F 3 "" H 1790 1030 60  0000 C CNN
-	1    1790 1030
+P 2390 1030
+F 0 "F1" H 2280 1225 50  0000 C CNN
+F 1 "Bel 0ZCH0050FF2G" H 2595 1150 50  0000 C CNN
+F 2 "Resistors_SMD:R_1210" H 2390 1030 60  0001 C CNN
+F 3 "" H 2390 1030 60  0000 C CNN
+	1    2390 1030
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOS_N Q4
+L Empyrean-rescue:MOS_N Q4
 U 1 1 57A6761F
 P 3210 2300
 F 0 "Q4" H 3465 2345 50  0000 R CNN
-F 1 "DMG1012UW-7" H 3930 2265 50  0000 R CNN
+F 1 "DMG1012T-7" H 3930 2265 50  0000 R CNN
 F 2 "EtherkitKicadLibrary:SOT523" H 3210 2300 60  0001 C CNN
 F 3 "" H 3210 2300 60  0000 C CNN
 	1    3210 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOS_P Q2
+L Empyrean-rescue:MOS_P Q2
 U 1 1 57A6769D
 P 2570 2525
 F 0 "Q2" V 2810 2725 50  0000 R CNN
@@ -166,7 +136,7 @@ F 3 "" H 2570 2525 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R5
+L Empyrean-rescue:R R5
 U 1 1 57A6774B
 P 2220 2765
 F 0 "R5" H 2330 2805 50  0000 C CNN
@@ -177,7 +147,7 @@ F 3 "" H 2220 2765 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L Empyrean-rescue:R R7
 U 1 1 57A67832
 P 3010 2775
 F 0 "R7" H 3120 2815 50  0000 C CNN
@@ -188,7 +158,7 @@ F 3 "" H 3010 2775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L Empyrean-rescue:R R3
 U 1 1 57A678B4
 P 1660 3030
 F 0 "R3" V 1490 3000 50  0000 C CNN
@@ -199,7 +169,7 @@ F 3 "" H 1660 3030 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LP2985 U1
+L Empyrean-rescue:LP2985 U1
 U 1 1 57A67B16
 P 4575 1280
 F 0 "U1" H 4740 1060 50  0000 C CNN
@@ -210,7 +180,7 @@ F 3 "" H 4575 1280 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L Empyrean-rescue:C C3
 U 1 1 57A67C0D
 P 3880 1170
 F 0 "C3" H 4030 1205 50  0000 C CNN
@@ -221,7 +191,7 @@ F 3 "" H 3880 1170 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L Empyrean-rescue:C C7
 U 1 1 57A67CC8
 P 5160 1345
 F 0 "C7" H 5310 1380 50  0000 C CNN
@@ -232,7 +202,7 @@ F 3 "" H 5160 1345 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L Empyrean-rescue:R R9
 U 1 1 57A67EB2
 P 5665 1770
 F 0 "R9" H 5775 1810 50  0000 C CNN
@@ -243,7 +213,7 @@ F 3 "" H 5665 1770 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D4
+L Empyrean-rescue:LED D4
 U 1 1 57A67FEC
 P 5665 2120
 F 0 "D4" V 5650 2305 50  0000 C CNN
@@ -254,7 +224,7 @@ F 3 "" H 5665 2120 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L Empyrean-rescue:R R1
 U 1 1 57A68B8B
 P 1330 4580
 F 0 "R1" H 1440 4620 50  0000 C CNN
@@ -265,7 +235,7 @@ F 3 "" H 1330 4580 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L Empyrean-rescue:LED D1
 U 1 1 57A68B91
 P 1330 4930
 F 0 "D1" V 1310 5095 50  0000 C CNN
@@ -276,7 +246,7 @@ F 3 "" H 1330 4930 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L Empyrean-rescue:R R4
 U 1 1 57A68CE3
 P 1755 4580
 F 0 "R4" H 1865 4620 50  0000 C CNN
@@ -287,7 +257,7 @@ F 3 "" H 1755 4580 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L Empyrean-rescue:LED D2
 U 1 1 57A68CE9
 P 1755 4930
 F 0 "D2" V 1735 5100 50  0000 C CNN
@@ -298,7 +268,7 @@ F 3 "" H 1755 4930 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_02X05 J2
+L Empyrean-rescue:CONN_02X05 J2
 U 1 1 57A69079
 P 1680 6640
 F 0 "J2" H 1680 6940 50  0000 C CNN
@@ -309,7 +279,7 @@ F 3 "" H 1680 5440 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L Empyrean-rescue:C C6
 U 1 1 57A6A266
 P 4145 1545
 F 0 "C6" H 4295 1580 50  0000 C CNN
@@ -320,7 +290,7 @@ F 3 "" H 4145 1545 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L Empyrean-rescue:GND #PWR01
 U 1 1 57A6B5A6
 P 5665 2220
 F 0 "#PWR01" H 5665 1970 50  0001 C CNN
@@ -331,7 +301,7 @@ F 3 "" H 5665 2220 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR02
+L Empyrean-rescue:+3.3V #PWR02
 U 1 1 57A6B9D3
 P 5665 1170
 F 0 "#PWR02" H 5665 1130 30  0001 C CNN
@@ -342,7 +312,7 @@ F 3 "" H 5665 1170 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L Empyrean-rescue:GND #PWR03
 U 1 1 57A6BE5A
 P 5160 1445
 F 0 "#PWR03" H 5160 1195 50  0001 C CNN
@@ -353,7 +323,7 @@ F 3 "" H 5160 1445 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L Empyrean-rescue:GND #PWR04
 U 1 1 57A6BF45
 P 4575 1530
 F 0 "#PWR04" H 4575 1280 50  0001 C CNN
@@ -364,7 +334,7 @@ F 3 "" H 4575 1530 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L Empyrean-rescue:GND #PWR05
 U 1 1 57A6C014
 P 4145 1645
 F 0 "#PWR05" H 4145 1395 50  0001 C CNN
@@ -375,7 +345,7 @@ F 3 "" H 4145 1645 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L Empyrean-rescue:GND #PWR06
 U 1 1 57A6C16F
 P 3880 1270
 F 0 "#PWR06" H 3880 1020 50  0001 C CNN
@@ -386,7 +356,7 @@ F 3 "" H 3880 1270 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L Empyrean-rescue:GND #PWR07
 U 1 1 57A6C2E6
 P 3310 2500
 F 0 "#PWR07" H 3310 2250 50  0001 C CNN
@@ -397,7 +367,7 @@ F 3 "" H 3310 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L Empyrean-rescue:GND #PWR08
 U 1 1 57A6C3D1
 P 3010 2925
 F 0 "#PWR08" H 3010 2675 50  0001 C CNN
@@ -408,7 +378,7 @@ F 3 "" H 3010 2925 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR09
+L Empyrean-rescue:+3.3V #PWR09
 U 1 1 57A6C644
 P 1330 4350
 F 0 "#PWR09" H 1330 4310 30  0001 C CNN
@@ -419,7 +389,7 @@ F 3 "" H 1330 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VIN #PWR010
+L EtherkitKicadLibrary:VIN #PWR010
 U 1 1 57A6CE9B
 P 3880 950
 F 0 "#PWR010" H 3880 910 30  0001 C CNN
@@ -430,7 +400,7 @@ F 3 "" H 3880 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR011
+L Empyrean-rescue:+3.3V #PWR011
 U 1 1 57A6D4AB
 P 2220 2400
 F 0 "#PWR011" H 2220 2360 30  0001 C CNN
@@ -445,7 +415,7 @@ DM
 Text GLabel 2190 1230 2    50   BiDi ~ 0
 DP
 $Comp
-L GND #PWR012
+L Empyrean-rescue:GND #PWR012
 U 1 1 57A6F896
 P 1795 1445
 F 0 "#PWR012" H 1795 1195 50  0001 C CNN
@@ -458,7 +428,7 @@ $EndComp
 Text GLabel 1510 3030 0    50   Input ~ 0
 USB_HOST_EN
 $Comp
-L R R6
+L Empyrean-rescue:R R6
 U 1 1 57A72C6C
 P 2220 4580
 F 0 "R6" H 2330 4620 50  0000 C CNN
@@ -469,7 +439,7 @@ F 3 "" H 2220 4580 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D3
+L Empyrean-rescue:LED D3
 U 1 1 57A72C72
 P 2220 4930
 F 0 "D3" V 2200 5105 50  0000 C CNN
@@ -480,18 +450,18 @@ F 3 "" H 2220 4930 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MOS_N Q1
+L Empyrean-rescue:MOS_N Q1
 U 1 1 57A72D68
 P 2320 5290
 F 0 "Q1" H 2575 5335 50  0000 R CNN
-F 1 "DMG1012UW-7" H 3040 5260 50  0000 R CNN
+F 1 "DMG1012T-7" H 3040 5260 50  0000 R CNN
 F 2 "EtherkitKicadLibrary:SOT523" H 2320 5290 60  0001 C CNN
 F 3 "" H 2320 5290 60  0000 C CNN
 	1    2320 5290
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L Empyrean-rescue:GND #PWR013
 U 1 1 57A73520
 P 2220 5490
 F 0 "#PWR013" H 2220 5240 50  0001 C CNN
@@ -502,7 +472,7 @@ F 3 "" H 2220 5490 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L Empyrean-rescue:C C4
 U 1 1 57A77A08
 P 3965 3870
 F 0 "C4" V 3755 3865 50  0000 C CNN
@@ -513,7 +483,7 @@ F 3 "" H 3965 3870 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C5
+L Empyrean-rescue:C C5
 U 1 1 57A77FF0
 P 3965 4290
 F 0 "C5" V 3755 4285 50  0000 C CNN
@@ -524,7 +494,7 @@ F 3 "" H 3965 4290 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR014
+L Empyrean-rescue:GND #PWR014
 U 1 1 57A784E0
 P 3800 4320
 F 0 "#PWR014" H 3800 4070 50  0001 C CNN
@@ -535,7 +505,7 @@ F 3 "" H 3800 4320 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L1
+L Empyrean-rescue:L L1
 U 1 1 57A78685
 P 3530 4640
 F 0 "L1" V 3460 4685 50  0000 C CNN
@@ -546,7 +516,7 @@ F 3 "" H 3530 4640 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C2
+L Empyrean-rescue:C C2
 U 1 1 57A78B28
 P 3755 4820
 F 0 "C2" H 3905 4855 50  0000 C CNN
@@ -557,7 +527,7 @@ F 3 "" H 3755 4820 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L Empyrean-rescue:GND #PWR015
 U 1 1 57A78DB6
 P 3755 4920
 F 0 "#PWR015" H 3755 4670 50  0001 C CNN
@@ -568,7 +538,7 @@ F 3 "" H 3755 4920 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR016
+L Empyrean-rescue:+3.3V #PWR016
 U 1 1 57A78F71
 P 3285 4645
 F 0 "#PWR016" H 3285 4605 30  0001 C CNN
@@ -579,7 +549,7 @@ F 3 "" H 3285 4645 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR017
+L Empyrean-rescue:+3.3V #PWR017
 U 1 1 57A7A574
 P 1430 6440
 F 0 "#PWR017" H 1430 6400 30  0001 C CNN
@@ -600,7 +570,7 @@ A0
 Text GLabel 4765 4490 0    50   Input ~ 0
 AREF
 $Comp
-L GND #PWR018
+L Empyrean-rescue:GND #PWR018
 U 1 1 57A7B51A
 P 4455 4575
 F 0 "#PWR018" H 4455 4325 50  0001 C CNN
@@ -661,7 +631,7 @@ DM
 Text GLabel 6715 4390 2    50   BiDi ~ 0
 DP
 $Comp
-L C C12
+L Empyrean-rescue:C C12
 U 1 1 57A7D13D
 P 7045 4330
 F 0 "C12" H 7230 4370 50  0000 C CNN
@@ -672,7 +642,7 @@ F 3 "" H 7045 4330 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L Empyrean-rescue:C C10
 U 1 1 57A7D236
 P 5895 6425
 F 0 "C10" H 6070 6460 50  0000 C CNN
@@ -695,7 +665,7 @@ A5
 Text GLabel 5190 3765 1    50   Output ~ 0
 RX_LED
 $Comp
-L +3.3V #PWR019
+L Empyrean-rescue:+3.3V #PWR019
 U 1 1 57A7E052
 P 5895 6275
 F 0 "#PWR019" H 5895 6235 30  0001 C CNN
@@ -706,7 +676,7 @@ F 3 "" H 5895 6275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L Empyrean-rescue:GND #PWR020
 U 1 1 57A7E1B3
 P 5895 6525
 F 0 "#PWR020" H 5895 6275 50  0001 C CNN
@@ -717,7 +687,7 @@ F 3 "" H 5895 6525 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L Empyrean-rescue:GND #PWR021
 U 1 1 57A7E2C8
 P 5690 5715
 F 0 "#PWR021" H 5690 5465 50  0001 C CNN
@@ -728,7 +698,7 @@ F 3 "" H 5690 5715 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L Empyrean-rescue:GND #PWR022
 U 1 1 57A7E6AF
 P 7045 4465
 F 0 "#PWR022" H 7045 4215 50  0001 C CNN
@@ -739,7 +709,7 @@ F 3 "" H 7045 4465 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR023
+L Empyrean-rescue:+3.3V #PWR023
 U 1 1 57A7EB54
 P 7045 4155
 F 0 "#PWR023" H 7045 4115 30  0001 C CNN
@@ -750,7 +720,7 @@ F 3 "" H 7045 4155 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L Empyrean-rescue:C C8
 U 1 1 57A7F1AA
 P 5460 3060
 F 0 "C8" H 5315 3100 50  0000 C CNN
@@ -761,7 +731,7 @@ F 3 "" H 5460 3060 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L Empyrean-rescue:C C9
 U 1 1 57A7F2E7
 P 5690 3585
 F 0 "C9" H 5680 3800 50  0000 C CNN
@@ -772,7 +742,7 @@ F 3 "" H 5690 3585 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L Empyrean-rescue:R R10
 U 1 1 57A7F649
 P 5885 2875
 F 0 "R10" V 6055 2880 50  0000 C CNN
@@ -783,7 +753,7 @@ F 3 "" H 5885 2875 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR024
+L Empyrean-rescue:+3.3V #PWR024
 U 1 1 57A7F7F6
 P 5590 2800
 F 0 "#PWR024" H 5590 2760 30  0001 C CNN
@@ -794,7 +764,7 @@ F 3 "" H 5590 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L Empyrean-rescue:R R11
 U 1 1 57A7FF85
 P 6115 2595
 F 0 "R11" H 6255 2630 50  0000 C CNN
@@ -805,7 +775,7 @@ F 3 "" H 6115 2595 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L Empyrean-rescue:GND #PWR025
 U 1 1 57A80510
 P 5885 3020
 F 0 "#PWR025" H 5885 2770 50  0001 C CNN
@@ -816,7 +786,7 @@ F 3 "" H 5885 3020 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L Empyrean-rescue:GND #PWR026
 U 1 1 57A805F2
 P 7000 2345
 F 0 "#PWR026" H 7000 2095 50  0001 C CNN
@@ -827,7 +797,7 @@ F 3 "" H 7000 2345 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L Empyrean-rescue:GND #PWR027
 U 1 1 57A80ACA
 P 1310 6975
 F 0 "#PWR027" H 1310 6725 50  0001 C CNN
@@ -850,7 +820,7 @@ NoConn ~ 6090 5715
 NoConn ~ 6190 3765
 NoConn ~ 6290 3765
 $Comp
-L GND #PWR028
+L Empyrean-rescue:GND #PWR028
 U 1 1 57A85B37
 P 5460 3160
 F 0 "#PWR028" H 5460 2910 50  0001 C CNN
@@ -863,7 +833,7 @@ $EndComp
 Text GLabel 6165 2875 2    50   Input ~ 0
 RESET
 $Comp
-L CONN_01X03 J3
+L Empyrean-rescue:CONN_01X03 J3
 U 1 1 57A881FC
 P 9025 5975
 F 0 "J3" H 9025 6175 50  0000 C CNN
@@ -883,28 +853,26 @@ Text GLabel 8835 4035 0    50   BiDi ~ 0
 SCL
 Text GLabel 8835 4135 0    50   BiDi ~ 0
 SDA
-Text GLabel 8835 4235 0    50   Output ~ 0
-RESET
 $Comp
-L VIN #PWR029
+L EtherkitKicadLibrary:VIN #PWR029
 U 1 1 57A8A276
-P 8475 4315
-F 0 "#PWR029" H 8475 4275 30  0001 C CNN
-F 1 "VIN" H 8475 4425 50  0000 C CNN
-F 2 "" H 8475 4315 60  0000 C CNN
-F 3 "" H 8475 4315 60  0000 C CNN
-	1    8475 4315
+P 8360 4315
+F 0 "#PWR029" H 8360 4275 30  0001 C CNN
+F 1 "VIN" H 8360 4425 50  0000 C CNN
+F 2 "" H 8360 4315 60  0000 C CNN
+F 3 "" H 8360 4315 60  0000 C CNN
+	1    8360 4315
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR030
+L Empyrean-rescue:+3.3V #PWR030
 U 1 1 57A8A5DD
-P 8305 4420
-F 0 "#PWR030" H 8305 4380 30  0001 C CNN
-F 1 "+3.3V" H 8305 4530 50  0000 C CNN
-F 2 "" H 8305 4420 60  0000 C CNN
-F 3 "" H 8305 4420 60  0000 C CNN
-	1    8305 4420
+P 8190 4420
+F 0 "#PWR030" H 8190 4380 30  0001 C CNN
+F 1 "+3.3V" H 8190 4530 50  0000 C CNN
+F 2 "" H 8190 4420 60  0000 C CNN
+F 3 "" H 8190 4420 60  0000 C CNN
+	1    8190 4420
 	1    0    0    -1  
 $EndComp
 Text GLabel 8835 4635 0    50   Output ~ 0
@@ -912,7 +880,7 @@ AREF
 Text GLabel 8835 4735 0    50   Output ~ 0
 A0
 $Comp
-L CONN_01X15 J4
+L Empyrean-rescue:CONN_01X15 J4
 U 1 1 57A8AA49
 P 9035 4735
 F 0 "J4" H 9035 5535 50  0000 C CNN
@@ -923,7 +891,7 @@ F 3 "" H 9035 4735 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X15 J5
+L Empyrean-rescue:CONN_01X15 J5
 U 1 1 57A8AC67
 P 9385 4735
 F 0 "J5" H 9385 5535 50  0000 C CNN
@@ -934,7 +902,7 @@ F 3 "" H 9385 4735 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L Empyrean-rescue:GND #PWR031
 U 1 1 57A8B117
 P 8505 4535
 F 0 "#PWR031" H 8505 4285 50  0001 C CNN
@@ -985,7 +953,7 @@ D13
 Text GLabel 9585 4235 2    50   Output ~ 0
 RESET
 $Comp
-L GND #PWR032
+L Empyrean-rescue:GND #PWR032
 U 1 1 57A8CF9E
 P 9940 4160
 F 0 "#PWR032" H 9940 3910 50  0001 C CNN
@@ -996,7 +964,7 @@ F 3 "" H 9940 4160 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR033
+L Empyrean-rescue:+3.3V #PWR033
 U 1 1 57A8D02A
 P 9670 4010
 F 0 "#PWR033" H 9670 3970 30  0001 C CNN
@@ -1007,7 +975,7 @@ F 3 "" H 9670 4010 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PUSHBUTTON S1
+L Empyrean-rescue:PUSHBUTTON S1
 U 1 1 57A9166C
 P 6545 2220
 F 0 "S1" H 6545 2105 50  0000 C CNN
@@ -1018,7 +986,7 @@ F 3 "" H 6545 2220 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CRYSTAL X1
+L Empyrean-rescue:CRYSTAL X1
 U 1 1 57A919D8
 P 4335 4080
 F 0 "X1" V 3975 3855 50  0000 C CNN
@@ -1031,15 +999,15 @@ $EndComp
 Wire Wire Line
 	910  1630 910  1895
 Wire Wire Line
-	910  1895 2460 1895
+	910  1895 1360 1895
 Wire Wire Line
 	2460 1895 2460 1780
 Wire Wire Line
-	1310 1130 2560 1130
+	1310 1130 2460 1130
 Wire Wire Line
-	1310 1230 2190 1230
+	1310 1230 2150 1230
 Wire Wire Line
-	1310 1430 1795 1430
+	1310 1430 1360 1430
 Wire Wire Line
 	1795 1430 1795 1445
 Wire Wire Line
@@ -1064,23 +1032,21 @@ Wire Wire Line
 	2150 1380 2150 1230
 Connection ~ 2150 1230
 Wire Wire Line
-	1590 1030 1310 1030
+	2590 1030 2985 1030
 Wire Wire Line
-	1990 1030 2985 1030
-Wire Wire Line
-	3385 1030 4575 1030
+	3385 1030 3510 1030
 Wire Wire Line
 	4225 1180 4225 1030
 Connection ~ 4225 1030
 Wire Wire Line
-	3880 950  3880 1070
+	3880 950  3880 1030
 Connection ~ 3880 1030
 Wire Wire Line
-	5665 1170 5665 1220
+	5665 1170 5665 1180
 Wire Wire Line
 	5665 1920 5665 2020
 Wire Wire Line
-	4925 1180 5665 1180
+	4925 1180 5160 1180
 Connection ~ 5665 1180
 Wire Wire Line
 	5160 1245 5160 1180
@@ -1091,12 +1057,12 @@ Wire Wire Line
 	4145 1380 4145 1445
 Connection ~ 3510 1030
 Wire Wire Line
-	3310 1230 3310 2100
+	3310 1230 3310 1440
 Connection ~ 3310 1440
 Wire Wire Line
-	2770 2425 3110 2425
+	2770 2425 3010 2425
 Wire Wire Line
-	2220 2400 2220 2615
+	2220 2400 2220 2425
 Wire Wire Line
 	2370 2425 2220 2425
 Connection ~ 2220 2425
@@ -1105,7 +1071,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 1330 1950 3030
 Wire Wire Line
-	1810 3030 2695 3030
+	1810 3030 1950 3030
 Wire Wire Line
 	2695 3030 2695 2625
 Wire Wire Line
@@ -1116,11 +1082,11 @@ Wire Wire Line
 	3010 2625 3010 2425
 Connection ~ 3010 2425
 Wire Wire Line
-	1330 4350 1330 4430
+	1330 4350 1330 4375
 Wire Wire Line
 	2220 4375 2220 4430
 Wire Wire Line
-	1330 4375 2220 4375
+	1330 4375 1755 4375
 Connection ~ 1330 4375
 Wire Wire Line
 	1755 4430 1755 4375
@@ -1136,7 +1102,7 @@ Wire Wire Line
 Wire Wire Line
 	1430 6540 1310 6540
 Wire Wire Line
-	1310 6540 1310 6975
+	1310 6540 1310 6640
 Wire Wire Line
 	1430 6840 1310 6840
 Connection ~ 1310 6840
@@ -1152,7 +1118,7 @@ Wire Wire Line
 Wire Wire Line
 	1755 5100 1755 5030
 Wire Wire Line
-	4065 4290 4765 4290
+	4065 4290 4335 4290
 Wire Wire Line
 	3865 3870 3800 3870
 Wire Wire Line
@@ -1162,12 +1128,12 @@ Wire Wire Line
 	4335 4205 4335 4290
 Connection ~ 4335 4290
 Wire Wire Line
-	4065 3870 4765 3870
+	4065 3870 4335 3870
 Wire Wire Line
 	4335 3955 4335 3870
 Connection ~ 4335 3870
 Wire Wire Line
-	3690 4690 4765 4690
+	3690 4690 3755 4690
 Wire Wire Line
 	3370 4690 3285 4690
 Wire Wire Line
@@ -1184,16 +1150,16 @@ Wire Wire Line
 Wire Wire Line
 	4455 4550 4455 4575
 Wire Wire Line
-	5895 6275 5895 6325
+	5895 6275 5895 6295
 Wire Wire Line
 	5895 6295 5590 6295
 Wire Wire Line
 	5590 6295 5590 5715
 Connection ~ 5895 6295
 Wire Wire Line
-	7045 4430 7045 4465
+	7045 4430 7045 4445
 Wire Wire Line
-	7045 4155 7045 4230
+	7045 4155 7045 4190
 Wire Wire Line
 	6715 4190 7045 4190
 Connection ~ 7045 4190
@@ -1207,7 +1173,7 @@ Connection ~ 7045 4445
 Wire Wire Line
 	5690 3765 5690 3685
 Wire Wire Line
-	5790 3005 5790 3765
+	5790 3005 5790 3485
 Wire Wire Line
 	5790 3005 5885 3005
 Wire Wire Line
@@ -1216,9 +1182,9 @@ Wire Wire Line
 	5690 3485 5790 3485
 Connection ~ 5790 3485
 Wire Wire Line
-	5590 2800 5590 3765
+	5590 2800 5590 2875
 Wire Wire Line
-	5460 2875 5735 2875
+	5460 2875 5590 2875
 Connection ~ 5590 2875
 Wire Wire Line
 	5460 2960 5460 2875
@@ -1231,9 +1197,9 @@ Wire Wire Line
 Wire Wire Line
 	6115 2220 6115 2445
 Wire Wire Line
-	6115 2745 6115 3280
+	6115 2745 6115 2875
 Wire Wire Line
-	6035 2875 6165 2875
+	6035 2875 6115 2875
 Connection ~ 6115 2875
 Wire Wire Line
 	3510 1100 3510 1030
@@ -1242,13 +1208,13 @@ Wire Wire Line
 Wire Wire Line
 	3510 1440 3310 1440
 Wire Wire Line
-	8475 4315 8475 4335
+	8360 4315 8360 4335
 Wire Wire Line
-	8475 4335 8835 4335
+	8360 4335 8835 4335
 Wire Wire Line
-	8305 4420 8305 4435
+	8190 4420 8190 4435
 Wire Wire Line
-	8305 4435 8835 4435
+	8190 4435 8835 4435
 Wire Wire Line
 	8835 4535 8505 4535
 Wire Wire Line
@@ -1262,16 +1228,16 @@ Wire Wire Line
 Wire Wire Line
 	5990 3765 5990 3280
 Wire Wire Line
-	5990 3280 6255 3280
+	5990 3280 6115 3280
 Wire Wire Line
 	4765 3870 4765 4190
 Wire Wire Line
-	3800 3870 3800 4320
+	3800 3870 3800 4290
 Text Notes 6665 2035 2    60   Italic 0
 Reset
 Text Notes 2275 7300 2    60   Italic 0
 Cortex Debug Connector
-Text Notes 1225 745  2    60   Italic 0
+Text Notes 1160 610  2    60   Italic 0
 USB Micro B
 Text Notes 6075 2030 2    60   Italic 0
 Power
@@ -1282,18 +1248,18 @@ UART\nRX\n
 Text Notes 2350 4800 0    60   Italic 0
 D13
 $Comp
-L JUMPER JP1
+L EtherkitKicadLibrary:JUMPER-NC JP2
 U 1 1 58ADDA85
 P 5665 1420
-F 0 "JP1" V 5615 1610 50  0000 C CNN
+F 0 "JP2" V 5615 1610 50  0000 C CNN
 F 1 "Power LED Enable" V 5695 1880 50  0000 C CNN
-F 2 "EtherkitKicadLibrary:SOLDER_JUMPER" H 5665 1420 60  0001 C CNN
+F 2 "EtherkitKicadLibrary:SOLDER_JUMPER_NC" H 5665 1420 60  0001 C CNN
 F 3 "" H 5665 1420 60  0000 C CNN
 	1    5665 1420
 	0    1    1    0   
 $EndComp
 $Comp
-L C C11
+L Empyrean-rescue:C C11
 U 1 1 58B22849
 P 6255 3440
 F 0 "C11" H 6440 3480 50  0000 C CNN
@@ -1304,7 +1270,7 @@ F 3 "" H 6255 3440 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L Empyrean-rescue:GND #PWR034
 U 1 1 58B22B78
 P 6255 3540
 F 0 "#PWR034" H 6255 3290 50  0001 C CNN
@@ -1317,4 +1283,120 @@ $EndComp
 Wire Wire Line
 	6255 3280 6255 3340
 Connection ~ 6115 3280
+Wire Wire Line
+	1360 1430 1570 1430
+Wire Wire Line
+	1360 1895 1570 1895
+Wire Wire Line
+	1570 1895 2150 1895
+Wire Wire Line
+	1570 1430 1795 1430
+Wire Wire Line
+	2150 1895 2460 1895
+Wire Wire Line
+	2460 1130 2560 1130
+Wire Wire Line
+	2150 1230 2190 1230
+Wire Wire Line
+	4225 1030 4575 1030
+Wire Wire Line
+	3880 1030 4225 1030
+Wire Wire Line
+	3880 1030 3880 1070
+Wire Wire Line
+	5665 1180 5665 1220
+Wire Wire Line
+	5160 1180 5665 1180
+Wire Wire Line
+	3510 1030 3880 1030
+Wire Wire Line
+	3310 1440 3310 2100
+Wire Wire Line
+	2220 2425 2220 2615
+Wire Wire Line
+	2220 3030 2695 3030
+Wire Wire Line
+	1950 3030 2220 3030
+Wire Wire Line
+	3010 2425 3110 2425
+Wire Wire Line
+	1330 4375 1330 4430
+Wire Wire Line
+	1755 4375 2220 4375
+Wire Wire Line
+	1310 6840 1310 6975
+Wire Wire Line
+	1310 6640 1310 6840
+Wire Wire Line
+	3800 4290 3800 4320
+Wire Wire Line
+	4335 4290 4765 4290
+Wire Wire Line
+	4335 3870 4765 3870
+Wire Wire Line
+	3755 4690 4765 4690
+Wire Wire Line
+	5895 6295 5895 6325
+Wire Wire Line
+	7045 4190 7045 4230
+Wire Wire Line
+	7045 4445 7045 4465
+Wire Wire Line
+	5790 3485 5790 3765
+Wire Wire Line
+	5590 2875 5590 3765
+Wire Wire Line
+	5590 2875 5735 2875
+Wire Wire Line
+	6115 2875 6115 3280
+Wire Wire Line
+	6115 2875 6165 2875
+Wire Wire Line
+	6115 3280 6255 3280
+$Comp
+L EtherkitKicadLibrary:JUMPER-NC JP1
+U 1 1 5C3DDD16
+P 1740 1030
+F 0 "JP1" H 1740 1260 50  0000 C CNN
+F 1 "VUSB Disable" H 1740 1180 50  0000 C CNN
+F 2 "EtherkitKicadLibrary:SOLDER_JUMPER_NC" H 1740 1199 60  0001 C CNN
+F 3 "" H 1740 1030 60  0000 C CNN
+	1    1740 1030
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1540 1030 1370 1030
+$Comp
+L EtherkitKicadLibrary:VUSB #PWR0101
+U 1 1 5C404444
+P 8490 4195
+F 0 "#PWR0101" H 8490 4155 30  0001 C CNN
+F 1 "VUSB" H 8490 4315 50  0000 C CNN
+F 2 "" H 8490 4195 60  0000 C CNN
+F 3 "" H 8490 4195 60  0000 C CNN
+	1    8490 4195
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8490 4195 8490 4235
+Wire Wire Line
+	8490 4235 8835 4235
+$Comp
+L EtherkitKicadLibrary:VUSB #PWR0102
+U 1 1 5C4098EE
+P 1370 965
+F 0 "#PWR0102" H 1370 925 30  0001 C CNN
+F 1 "VUSB" H 1370 1085 50  0000 C CNN
+F 2 "" H 1370 965 60  0000 C CNN
+F 3 "" H 1370 965 60  0000 C CNN
+	1    1370 965 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1940 1030 2190 1030
+Wire Wire Line
+	1370 965  1370 1030
+Connection ~ 1370 1030
+Wire Wire Line
+	1370 1030 1310 1030
 $EndSCHEMATC
