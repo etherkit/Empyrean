@@ -1,0 +1,61 @@
+Empyrean Alpha/Beta BOM
+Rev B
+Etherkit
+17 May 2019
+
+| Part (marking)                  | Qty  | Ref                            | P/N
+======================================================================================================
+Capacitors (size 0603)
+| 15pF C0G ceramic                  2      C4, C5
+| 4.7nF MLCC                        1      C1
+| 100nF MLCC                        5      C6, C8, C10, C11, C12
+| 1uF MLCC                          2      C3, C9
+| 10uF MLCC                         2      C2, C7
+
+Resistors & Trimmers (0.1 W size 0603, 5% unless otherwise specified)
+| 330                               6      R1, R3, R4, R5, R6, R8
+| 10k                               1      R7
+| 1M                                1      R2
+
+Varistors
+| CGA0603MLC-05E                    2      VR1, VR2                         Bournes CGA0603MLC-05E
+
+Inductors
+| 10uH 0603                         1      L1                               
+
+Fuses
+| 500mA polyfuse                    1      F1                               Bel 0ZCH0050FF2G
+
+Semiconductors
+| DMG1012T-7                        1      Q1                               Diodes Inc DMG1012T-7
+
+LEDs
+| Green, clear, 0603                1      D1                               Lite-On LTST-C170KGKT
+| Yellow, clear, 0603               1      D2                               Lite-On LTST-C170KSKT
+| Blue, clear, 0603                 1      D3                               Lite-On LTST-C170TBKT
+| Red, clear, 0603                  1      D4                               Lite-On LTST-C170KRKT
+
+ICs
+| ATSAMD21G18A                      1      U2                               Microchip ATSAMD21G18A-AUT
+  or
+| ATSAMD21G16B                      1      U2                               Microchip ATSAMD21G16B-AUT
+| LP2985-33                         1      U1                               TI LP2985-33DBVR
+
+Crystals/Oscillators
+| 32.768kHz crystal                 1      X1                               ECS ECS-.327-12.534B-TR
+
+Connectors
+| USB Micro B PCB mount             1      J1                               FCI 10118194-0001LF
+
+Switches/Relays
+| Tactile pushbutton                1      S1                               Alps SKQMASE010
+
+Miscellaneous
+| PCB                               1
+
+Optional
+| 0.1" header - 15 pins             2      J4, J5
+| 0.1" header - 3 pins              1      J3
+| 0.05" header - 2x5 pins           1      J2                               Harwin M50-3500542
+
+
