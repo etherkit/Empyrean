@@ -1242,7 +1242,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -23715,7 +23715,7 @@
            height="38"
            x="443.60001"
            y="191.31969" /></flowRegion><flowPara
-         id="flowPara6788"></flowPara></flowRoot>    <text
+         id="flowPara6788" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="175.04832"
@@ -23746,11 +23746,11 @@
          sodipodi:role="line"
          id="tspan6806"
          x="187.11331"
-         y="27.971668">Revision 1 — 6 Jun 2020</tspan><tspan
+         y="27.971668">Revision 1 — 7 Jun 2020</tspan><tspan
          sodipodi:role="line"
          x="187.11331"
          y="31.499447"
-         id="tspan6808">For Empyrean Alpha/Beta Rev A</tspan></text>
+         id="tspan6808">For Empyrean Alpha/Beta Rev B</tspan></text>
     <text
        id="text6816"
        y="111.7128"
