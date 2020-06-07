@@ -266,6 +266,22 @@ X 2 2 200 0 65 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# JUMPER-NC-EtherkitKicadLibrary
+#
+DEF JUMPER-NC-EtherkitKicadLibrary JP 0 30 N N 1 F N
+F0 "JP" 0 150 50 H V C CNN
+F1 "JUMPER-NC-EtherkitKicadLibrary" 0 -80 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+A -1 -37 125 1426 373 0 1 0 N -99 39 98 39
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+X 1 1 -200 0 65 R 50 50 0 1 P
+X 2 2 200 0 65 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # L
 #
 DEF L L 0 40 N N 1 F N
@@ -449,6 +465,20 @@ X VIN 1 0 0 0 U 30 30 0 0 W N
 ENDDRAW
 ENDDEF
 #
+# VIN-EtherkitKicadLibrary
+#
+DEF VIN-EtherkitKicadLibrary #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -40 30 H I C CNN
+F1 "VIN-EtherkitKicadLibrary" 0 110 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 60 20 0 1 0 N
+P 3 0 1 0 0 0 0 40 0 40 N
+X VIN 1 0 0 0 U 30 30 0 0 W N
+ENDDRAW
+ENDDEF
+#
 # VR
 #
 DEF VR VR 0 0 N Y 1 F N
@@ -461,6 +491,20 @@ S -40 150 40 -150 0 1 0 N
 P 5 0 1 0 -60 -100 -60 -60 60 60 60 100 60 100 N
 X ~ 1 0 200 50 D 60 60 1 1 P
 X ~ 2 0 -200 50 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# VUSB-EtherkitKicadLibrary
+#
+DEF VUSB-EtherkitKicadLibrary #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -40 30 H I C CNN
+F1 "VUSB-EtherkitKicadLibrary" 0 110 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 60 20 0 1 0 N
+P 3 0 1 0 0 0 0 40 0 40 N
+X VUSB 1 0 0 0 U 30 30 0 0 W N
 ENDDRAW
 ENDDEF
 #

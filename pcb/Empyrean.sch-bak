@@ -300,7 +300,7 @@ F 3 "" H 1330 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:VIN-EtherkitKicadLibrary #PWR010
+L EtherkitKicadLibrary:VIN #PWR010
 U 1 1 57A6CE9B
 P 3880 950
 F 0 "#PWR010" H 3880 910 30  0001 C CNN
@@ -754,7 +754,7 @@ SCL
 Text GLabel 8835 4135 0    50   BiDi ~ 0
 SDA
 $Comp
-L Empyrean-rescue:VIN-EtherkitKicadLibrary #PWR029
+L EtherkitKicadLibrary:VIN #PWR029
 U 1 1 57A8A276
 P 8360 4315
 F 0 "#PWR029" H 8360 4275 30  0001 C CNN
@@ -1112,7 +1112,7 @@ UART\nRX\n
 Text Notes 2350 4800 0    60   Italic 0
 D13
 $Comp
-L Empyrean-rescue:JUMPER-NC-EtherkitKicadLibrary JP2
+L EtherkitKicadLibrary:JUMPER-NC JP2
 U 1 1 58ADDA85
 P 5665 1420
 F 0 "JP2" V 5615 1610 50  0000 C CNN
@@ -1206,7 +1206,7 @@ Wire Wire Line
 Wire Wire Line
 	6115 3280 6255 3280
 $Comp
-L Empyrean-rescue:JUMPER-NC-EtherkitKicadLibrary JP1
+L EtherkitKicadLibrary:JUMPER-NC JP1
 U 1 1 5C3DDD16
 P 1740 1030
 F 0 "JP1" H 1740 1260 50  0000 C CNN
@@ -1217,7 +1217,7 @@ F 3 "" H 1740 1030 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:VUSB-EtherkitKicadLibrary #PWR030
+L EtherkitKicadLibrary:VUSB #PWR030
 U 1 1 5C404444
 P 8490 4195
 F 0 "#PWR030" H 8490 4155 30  0001 C CNN
@@ -1246,7 +1246,7 @@ Wire Wire Line
 Wire Wire Line
 	1540 1030 1355 1030
 $Comp
-L Empyrean-rescue:VUSB-EtherkitKicadLibrary #PWR03
+L EtherkitKicadLibrary:VUSB #PWR03
 U 1 1 5C457DD6
 P 1355 1000
 F 0 "#PWR03" H 1355 960 30  0001 C CNN

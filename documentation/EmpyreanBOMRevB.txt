@@ -1,7 +1,7 @@
 Empyrean Alpha/Beta BOM
 Rev B
 Etherkit
-17 May 2019
+9 January 2020
 
 | Part (marking)                  | Qty  | Ref                            | P/N
 ======================================================================================================
@@ -27,7 +27,7 @@ Fuses
 | 500mA polyfuse                    1      F1                               Bel 0ZCH0050FF2G
 
 Semiconductors
-| DMG1012T-7                        1      Q1                               Diodes Inc DMG1012T-7
+| 2N7002TQ                          1      Q1                               Diodes Inc 2N7002TQ-7-F
 
 LEDs
 | Green, clear, 0603                1      D1                               Lite-On LTST-C170KGKT

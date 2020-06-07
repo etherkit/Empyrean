@@ -250,6 +250,22 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# Empyrean-rescue_JUMPER-NC-EtherkitKicadLibrary
+#
+DEF Empyrean-rescue_JUMPER-NC-EtherkitKicadLibrary JP 0 30 N N 1 F N
+F0 "JP" 0 150 50 H V C CNN
+F1 "Empyrean-rescue_JUMPER-NC-EtherkitKicadLibrary" 0 -80 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+A -1 -37 125 1426 373 0 1 0 N -99 39 98 39
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+X 1 1 -200 0 65 R 50 50 0 1 P
+X 2 2 200 0 65 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Empyrean-rescue_L
 #
 DEF Empyrean-rescue_L L 0 40 N N 1 F N
@@ -397,6 +413,20 @@ X shield 6 400 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Empyrean-rescue_VIN-EtherkitKicadLibrary
+#
+DEF Empyrean-rescue_VIN-EtherkitKicadLibrary #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -40 30 H I C CNN
+F1 "Empyrean-rescue_VIN-EtherkitKicadLibrary" 0 110 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 60 20 0 1 0 N
+P 3 0 1 0 0 0 0 40 0 40 N
+X VIN 1 0 0 0 U 30 30 0 0 W N
+ENDDRAW
+ENDDEF
+#
 # Empyrean-rescue_VR
 #
 DEF Empyrean-rescue_VR VR 0 0 N Y 1 F N
@@ -412,41 +442,11 @@ X ~ 2 0 -200 50 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# EtherkitKicadLibrary_JUMPER-NC
+# Empyrean-rescue_VUSB-EtherkitKicadLibrary
 #
-DEF EtherkitKicadLibrary_JUMPER-NC JP 0 30 N N 1 F N
-F0 "JP" 0 150 50 H V C CNN
-F1 "EtherkitKicadLibrary_JUMPER-NC" 0 -80 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-A -1 -37 125 1426 373 0 1 0 N -99 39 98 39
-C -100 0 35 0 1 0 N
-C 100 0 35 0 1 0 N
-X 1 1 -200 0 65 R 50 50 0 1 P
-X 2 2 200 0 65 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# EtherkitKicadLibrary_VIN
-#
-DEF EtherkitKicadLibrary_VIN #PWR 0 0 Y Y 1 F P
+DEF Empyrean-rescue_VUSB-EtherkitKicadLibrary #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -40 30 H I C CNN
-F1 "EtherkitKicadLibrary_VIN" 0 110 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C 0 60 20 0 1 0 N
-P 3 0 1 0 0 0 0 40 0 40 N
-X VIN 1 0 0 0 U 30 30 0 0 W N
-ENDDRAW
-ENDDEF
-#
-# EtherkitKicadLibrary_VUSB
-#
-DEF EtherkitKicadLibrary_VUSB #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -40 30 H I C CNN
-F1 "EtherkitKicadLibrary_VUSB" 0 110 50 H V C CNN
+F1 "Empyrean-rescue_VUSB-EtherkitKicadLibrary" 0 110 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW

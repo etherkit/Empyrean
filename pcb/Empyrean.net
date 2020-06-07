@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source /home/jason/Nextcloud/Etherkit/git/Empyrean/pcb/Empyrean.sch)
-    (date "Fri 17 May 2019 02:15:38 PM PDT")
-    (tool "Eeschema 5.1.2-f72e74a~84~ubuntu18.04.1")
+    (date "Tue 26 May 2020 11:46:44 AM PDT")
+    (tool "Eeschema 5.1.6-c6e7f7d~86~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Empyrean Alpha/Beta")
         (company Etherkit)
         (rev B)
-        (date 2018-11-28)
+        (date 2020-01-09)
         (source Empyrean.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
@@ -89,7 +89,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 57A67EB2))
     (comp (ref D4)
-      (value Green)
+      (value Red)
       (footprint EtherkitKicadLibrary:Lite-On_LTST-C170)
       (libsource (lib Empyrean-rescue) (part LED) (description ""))
       (sheetpath (names /) (tstamps /))
@@ -101,7 +101,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 57A68B8B))
     (comp (ref D1)
-      (value Red)
+      (value Green)
       (footprint EtherkitKicadLibrary:Lite-On_LTST-C170)
       (libsource (lib Empyrean-rescue) (part LED) (description ""))
       (sheetpath (names /) (tstamps /))
@@ -143,7 +143,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 57A72C72))
     (comp (ref Q1)
-      (value DMG1012T-7)
+      (value 2N7002TQ)
       (footprint EtherkitKicadLibrary:SOT523)
       (libsource (lib Empyrean-rescue) (part MOS_N) (description ""))
       (sheetpath (names /) (tstamps /))
@@ -241,7 +241,7 @@
     (comp (ref JP2)
       (value "Power LED Enable")
       (footprint EtherkitKicadLibrary:SOLDER_JUMPER_NC)
-      (libsource (lib EtherkitKicadLibrary) (part JUMPER-NC) (description ""))
+      (libsource (lib Empyrean-rescue) (part JUMPER-NC-EtherkitKicadLibrary) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 58ADDA85))
     (comp (ref C11)
@@ -253,7 +253,7 @@
     (comp (ref JP1)
       (value "VUSB Disable")
       (footprint EtherkitKicadLibrary:SOLDER_JUMPER_NC)
-      (libsource (lib EtherkitKicadLibrary) (part JUMPER-NC) (description ""))
+      (libsource (lib Empyrean-rescue) (part JUMPER-NC-EtherkitKicadLibrary) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C3DDD16)))
   (libparts
@@ -396,6 +396,13 @@
       (pins
         (pin (num 1) (name ~) (type input))
         (pin (num 2) (name ~) (type input))))
+    (libpart (lib Empyrean-rescue) (part JUMPER-NC-EtherkitKicadLibrary)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) JUMPER-NC-EtherkitKicadLibrary))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
     (libpart (lib Empyrean-rescue) (part L)
       (fields
         (field (name Reference) L)
@@ -474,19 +481,10 @@
         (field (name Value) VR))
       (pins
         (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib EtherkitKicadLibrary) (part JUMPER-NC)
-      (fields
-        (field (name Reference) JP)
-        (field (name Value) JUMPER-NC))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive)))))
+        (pin (num 2) (name ~) (type passive)))))
   (libraries
     (library (logical Empyrean-rescue)
-      (uri /home/jason/Nextcloud/Etherkit/git/Empyrean/pcb/Empyrean-rescue.lib))
-    (library (logical EtherkitKicadLibrary)
-      (uri /home/jason/Nextcloud/Etherkit/git/EtherkitKicadLibrary/EtherkitKicadLibrary.lib)))
+      (uri /home/jason/Nextcloud/Etherkit/git/Empyrean/pcb/Empyrean-rescue.lib)))
   (nets
     (net (code 1) (name DP)
       (node (ref J1) (pin 3))
