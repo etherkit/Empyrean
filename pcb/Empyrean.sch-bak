@@ -14,13 +14,15 @@ Comment3 ""
 Comment4 "Creative Commons CC-BY_SA 4.0"
 $EndDescr
 $Comp
-L Empyrean-rescue:ATSAMD21G18A U2
+L EtherkitKicadLibrary:ATSAMD21G18A U2
 U 1 1 57A6661C
 P 5740 4740
 F 0 "U2" H 5740 4785 50  0000 C CNN
 F 1 "ATSAMD21GxA" H 5740 4680 50  0000 C CNN
 F 2 "EtherkitKicadLibrary:TQFP-48_7x7mm_Pitch0.5mm" H 5740 4740 50  0001 C CNN
 F 3 "DOCUMENTATION" H 5740 4740 50  0001 C CNN
+F 4 "ATSAMD21G18A-AUT" H 5740 4740 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/Microchip-Technology/ATSAMD21G18A-AUT?qs=%2Fha2pyFadugBn%2Fe%252Bemax1T7pJzG67%252B%252B1Mk68qSvIsRnh12UEDqBc8A%3D%3D" H 5740 4740 50  0001 C CNN "URL"
 	1    5740 4740
 	1    0    0    -1  
 $EndComp
@@ -32,50 +34,60 @@ F 0 "J1" V 435 1620 50  0000 C CNN
 F 1 "FCI 10118194-0001LF" V 535 1225 50  0000 C CNN
 F 2 "EtherkitKicadLibrary:FCI_10118194-0001LF" V 960 1130 60  0001 C CNN
 F 3 "" V 960 1130 60  0000 C CNN
+F 4 "10118194-0001LF" V 1010 1230 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/Amphenol-FCI/10118194-0001LF?qs=%2Fha2pyFadugHQYubHEjQrWaf71KglMlHbfZ%2FBmSxIoqAM0lAnkBayw%3D%3D" V 1010 1230 50  0001 C CNN "URL"
 	1    1010 1230
 	0    -1   1    0   
 $EndComp
 $Comp
-L Empyrean-rescue:VR VR1
+L EtherkitKicadLibrary:VR VR1
 U 1 1 57A66D8A
 P 2150 1580
 F 0 "VR1" H 2130 1220 50  0000 C TNN
 F 1 "CG0603MLC-05E" H 2375 1115 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 2150 1580 60  0001 C CNN
 F 3 "" H 2150 1580 60  0000 C CNN
+F 4 "CG0603MLC-05E" H 2150 1580 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/Bourns/CG0603MLC-05E?qs=%2Fha2pyFaduj8GWc5RpRwWsoz%252BsBNDfM0b%2FMwO0m8cAS%252B28tb9AwLWQ%3D%3D" H 2150 1580 50  0001 C CNN "URL"
 	1    2150 1580
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:VR VR2
+L EtherkitKicadLibrary:VR VR2
 U 1 1 57A66E0C
 P 2460 1580
 F 0 "VR2" H 2605 1645 50  0000 C TNN
 F 1 "CG0603MLC-05E" H 2850 1535 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 2460 1580 60  0001 C CNN
 F 3 "" H 2460 1580 60  0000 C CNN
+F 4 "CG0603MLC-05E" H 2460 1580 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/Bourns/CG0603MLC-05E?qs=%2Fha2pyFaduj8GWc5RpRwWsoz%252BsBNDfM0b%2FMwO0m8cAS%252B28tb9AwLWQ%3D%3D" H 2460 1580 50  0001 C CNN "URL"
 	1    2460 1580
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:R R2
+L EtherkitKicadLibrary:R R2
 U 1 1 57A66E86
 P 1570 1710
 F 0 "R2" H 1680 1750 50  0000 C CNN
 F 1 "1M" H 1685 1675 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 1570 1710 60  0001 C CNN
 F 3 "" H 1570 1710 60  0000 C CNN
+F 4 "RC0603FR-071ML" H 1570 1710 50  0001 C CNN "MPN"
+F 5 "" H 1570 1710 50  0001 C CNN "URL"
 	1    1570 1710
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:C C1
+L EtherkitKicadLibrary:C C1
 U 1 1 57A66F0D
 P 1360 1695
 F 0 "C1" H 1205 1730 50  0000 C CNN
 F 1 "4.7n" H 1165 1655 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 1360 1695 60  0001 C CNN
 F 3 "" H 1360 1695 60  0000 C CNN
+F 4 "CC0603KRX7R9BB472" H 1360 1695 50  0001 C CNN "MPN"
+F 5 "" H 1360 1695 50  0001 C CNN "URL"
 	1    1360 1695
 	1    0    0    -1  
 $EndComp
@@ -87,121 +99,130 @@ F 0 "F1" H 2280 1225 50  0000 C CNN
 F 1 "Bel 0ZCH0050FF2G" H 2595 1150 50  0000 C CNN
 F 2 "Resistors_SMD:R_1210" H 2390 1030 60  0001 C CNN
 F 3 "" H 2390 1030 60  0000 C CNN
+F 4 "0ZCH0050FF2G" H 2390 1030 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/Bel-Fuse/0ZCH0050FF2G?qs=%2Fha2pyFaduhB6rNO2vBn0J9xUJKMLnoy9n0uu5jGJT63qAbv1B9xxA%3D%3D" H 2390 1030 50  0001 C CNN "URL"
 	1    2390 1030
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:R R4
-U 1 1 57A678B4
-P 2000 2265
-F 0 "R4" H 1880 2215 50  0000 C CNN
-F 1 "330" H 1855 2295 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 2000 2265 60  0001 C CNN
-F 3 "" H 2000 2265 60  0000 C CNN
-	1    2000 2265
-	-1   0    0    1   
-$EndComp
-$Comp
-L Empyrean-rescue:LP2985 U1
+L EtherkitKicadLibrary:LP2985 U1
 U 1 1 57A67B16
 P 4575 1280
 F 0 "U1" H 4740 1060 50  0000 C CNN
 F 1 "LP2985" H 4835 990 50  0000 C CNN
 F 2 "EtherkitKicadLibrary:SOT23-5" H 4575 1280 60  0001 C CNN
 F 3 "" H 4575 1280 60  0000 C CNN
+F 4 "LP2985-33DBVR" H 4575 1280 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/Texas-Instruments/LP2985-33DBVR?qs=paYhMW8qfiswyUdMjD%2FxlQ%3D%3D" H 4575 1280 50  0001 C CNN "URL"
 	1    4575 1280
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:C C3
+L EtherkitKicadLibrary:C C3
 U 1 1 57A67C0D
 P 3880 1170
 F 0 "C3" H 4030 1205 50  0000 C CNN
 F 1 "1u" H 3990 1135 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3880 1170 60  0001 C CNN
 F 3 "" H 3880 1170 60  0000 C CNN
+F 4 "CC0603KRX5R8BB105" H 3880 1170 50  0001 C CNN "MPN"
+F 5 "" H 3880 1170 50  0001 C CNN "URL"
 	1    3880 1170
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:C C7
+L EtherkitKicadLibrary:C C7
 U 1 1 57A67CC8
 P 5160 1345
 F 0 "C7" H 5310 1380 50  0000 C CNN
 F 1 "10u" H 5265 1310 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5160 1345 60  0001 C CNN
 F 3 "" H 5160 1345 60  0000 C CNN
+F 4 "CC0603MRX5R5BB106" H 5160 1345 50  0001 C CNN "MPN"
+F 5 "" H 5160 1345 50  0001 C CNN "URL"
 	1    5160 1345
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:R R6
+L EtherkitKicadLibrary:R R6
 U 1 1 57A67EB2
 P 5665 1770
 F 0 "R6" H 5775 1810 50  0000 C CNN
 F 1 "330" H 5805 1730 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 5665 1770 60  0001 C CNN
 F 3 "" H 5665 1770 60  0000 C CNN
+F 4 "RC0603FR-07330RL" H 5665 1770 50  0001 C CNN "MPN"
+F 5 "" H 5665 1770 50  0001 C CNN "URL"
 	1    5665 1770
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:LED D4
+L EtherkitKicadLibrary:LED D4
 U 1 1 57A67FEC
 P 5665 2120
 F 0 "D4" V 5650 2305 50  0000 C CNN
 F 1 "Red" V 5725 2325 50  0000 C CNN
 F 2 "EtherkitKicadLibrary:Lite-On_LTST-C170" H 5665 2120 60  0001 C CNN
 F 3 "" H 5665 2120 60  0000 C CNN
+F 4 "LTST-C170KRKT" V 5665 2120 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/Lite-On/LTST-C170KRKT?qs=%2Fha2pyFadugHsX7bdQzWjFN6DawqxaLJ%252Bmpz6ojJ8%2F0T3%2F9EyXbtKw%3D%3D" V 5665 2120 50  0001 C CNN "URL"
 	1    5665 2120
 	0    1    1    0   
 $EndComp
 $Comp
-L Empyrean-rescue:R R1
+L EtherkitKicadLibrary:R R1
 U 1 1 57A68B8B
 P 1330 4580
 F 0 "R1" H 1440 4620 50  0000 C CNN
 F 1 "330" H 1465 4540 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 1330 4580 60  0001 C CNN
 F 3 "" H 1330 4580 60  0000 C CNN
+F 4 "RC0603FR-07330RL" H 1330 4580 50  0001 C CNN "MPN"
+F 5 "" H 1330 4580 50  0001 C CNN "URL"
 	1    1330 4580
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:LED D1
+L EtherkitKicadLibrary:LED D1
 U 1 1 57A68B91
 P 1330 4930
 F 0 "D1" V 1310 5095 50  0000 C CNN
 F 1 "Green" V 1380 5155 50  0000 C CNN
 F 2 "EtherkitKicadLibrary:Lite-On_LTST-C170" H 1330 4930 60  0001 C CNN
 F 3 "" H 1330 4930 60  0000 C CNN
+F 4 "LTST-C170KGKT" V 1330 4930 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/Lite-On/LTST-C170KGKT?qs=%2Fha2pyFadugHsX7bdQzWjEu%252BWKML1FbmH%252B3MRHTAbdfPlg7VCKFMAg%3D%3D" V 1330 4930 50  0001 C CNN "URL"
 	1    1330 4930
 	0    1    1    0   
 $EndComp
 $Comp
-L Empyrean-rescue:R R3
+L EtherkitKicadLibrary:R R3
 U 1 1 57A68CE3
 P 1755 4580
 F 0 "R3" H 1865 4620 50  0000 C CNN
 F 1 "330" H 1895 4540 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 1755 4580 60  0001 C CNN
 F 3 "" H 1755 4580 60  0000 C CNN
+F 4 "RC0603FR-07330RL" H 1755 4580 50  0001 C CNN "MPN"
+F 5 "" H 1755 4580 50  0001 C CNN "URL"
 	1    1755 4580
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:LED D2
+L EtherkitKicadLibrary:LED D2
 U 1 1 57A68CE9
 P 1755 4930
 F 0 "D2" V 1735 5100 50  0000 C CNN
 F 1 "Yellow" V 1810 5180 50  0000 C CNN
 F 2 "EtherkitKicadLibrary:Lite-On_LTST-C170" H 1755 4930 60  0001 C CNN
 F 3 "" H 1755 4930 60  0000 C CNN
+F 4 "LTST-C170KSKT" V 1755 4930 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/Lite-On/LTST-C170KSKT?qs=%2Fha2pyFadugHsX7bdQzWjPJjYc2k%2FdYIzn%252Bj3%252BUzEpkZi2tNvovhgQ%3D%3D" V 1755 4930 50  0001 C CNN "URL"
 	1    1755 4930
 	0    1    1    0   
 $EndComp
 $Comp
-L Empyrean-rescue:CONN_02X05 J2
+L EtherkitKicadLibrary:CONN_02X05 J2
 U 1 1 57A69079
 P 1680 6640
 F 0 "J2" H 1680 6940 50  0000 C CNN
@@ -212,13 +233,15 @@ F 3 "" H 1680 5440 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:C C6
+L EtherkitKicadLibrary:C C6
 U 1 1 57A6A266
 P 4145 1545
 F 0 "C6" H 4295 1580 50  0000 C CNN
 F 1 "100n" H 4255 1505 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4145 1545 60  0001 C CNN
 F 3 "" H 4145 1545 60  0000 C CNN
+F 4 "CC0603KRX7R9BB104" H 4145 1545 50  0001 C CNN "MPN"
+F 5 "" H 4145 1545 50  0001 C CNN "URL"
 	1    4145 1545
 	1    0    0    -1  
 $EndComp
@@ -300,7 +323,7 @@ F 3 "" H 1330 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EtherkitKicadLibrary:VIN #PWR010
+L Empyrean-rescue:VIN-EtherkitKicadLibrary #PWR010
 U 1 1 57A6CE9B
 P 3880 950
 F 0 "#PWR010" H 3880 910 30  0001 C CNN
@@ -328,35 +351,41 @@ $EndComp
 Text GLabel 1900 2485 0    50   Input ~ 0
 USB_HOST_EN
 $Comp
-L Empyrean-rescue:R R5
+L EtherkitKicadLibrary:R R5
 U 1 1 57A72C6C
 P 2220 4580
 F 0 "R5" H 2330 4620 50  0000 C CNN
 F 1 "330" H 2360 4540 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 2220 4580 60  0001 C CNN
 F 3 "" H 2220 4580 60  0000 C CNN
+F 4 "RC0603FR-07330RL" H 2220 4580 50  0001 C CNN "MPN"
+F 5 "" H 2220 4580 50  0001 C CNN "URL"
 	1    2220 4580
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:LED D3
+L EtherkitKicadLibrary:LED D3
 U 1 1 57A72C72
 P 2220 4930
 F 0 "D3" V 2200 5105 50  0000 C CNN
 F 1 "Blue" V 2280 5140 50  0000 C CNN
 F 2 "EtherkitKicadLibrary:Lite-On_LTST-C170" H 2220 4930 60  0001 C CNN
 F 3 "" H 2220 4930 60  0000 C CNN
+F 4 "LTST-C170TBKT" V 2220 4930 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/Lite-On/LTST-C170TBKT?qs=%2Fha2pyFadugHsX7bdQzWjLO%2FRjeTaS3h5zpSfHaKZ9BsXDSKzdqHMA%3D%3D" V 2220 4930 50  0001 C CNN "URL"
 	1    2220 4930
 	0    1    1    0   
 $EndComp
 $Comp
-L Empyrean-rescue:MOS_N Q1
+L EtherkitKicadLibrary:MOS_N Q1
 U 1 1 57A72D68
 P 2320 5290
 F 0 "Q1" H 2575 5335 50  0000 R CNN
 F 1 "2N7002TQ" H 2860 5245 50  0000 R CNN
 F 2 "EtherkitKicadLibrary:SOT523" H 2320 5290 60  0001 C CNN
 F 3 "" H 2320 5290 60  0000 C CNN
+F 4 "2N7002TQ-7-F" H 2320 5290 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/Diodes-Incorporated/2N7002TQ-7-F?qs=%2Fha2pyFadujcX%252BtqCA5T6s0xSna2kTvHUeEdhD%252BtzEEc0WZUJrl9Hg%3D%3D" H 2320 5290 50  0001 C CNN "URL"
 	1    2320 5290
 	-1   0    0    -1  
 $EndComp
@@ -372,24 +401,28 @@ F 3 "" H 2220 5490 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:C C4
+L EtherkitKicadLibrary:C C4
 U 1 1 57A77A08
 P 3965 3870
 F 0 "C4" V 3755 3865 50  0000 C CNN
 F 1 "15" V 3830 3820 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3965 3870 60  0001 C CNN
 F 3 "" H 3965 3870 60  0000 C CNN
+F 4 "GCM1885C1H150JA16D" V 3965 3870 50  0001 C CNN "MPN"
+F 5 "" V 3965 3870 50  0001 C CNN "URL"
 	1    3965 3870
 	0    1    1    0   
 $EndComp
 $Comp
-L Empyrean-rescue:C C5
+L EtherkitKicadLibrary:C C5
 U 1 1 57A77FF0
 P 3965 4290
 F 0 "C5" V 3755 4285 50  0000 C CNN
 F 1 "15" V 3830 4240 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3965 4290 60  0001 C CNN
 F 3 "" H 3965 4290 60  0000 C CNN
+F 4 "GCM1885C1H150JA16D" V 3965 4290 50  0001 C CNN "MPN"
+F 5 "" V 3965 4290 50  0001 C CNN "URL"
 	1    3965 4290
 	0    1    1    0   
 $EndComp
@@ -405,24 +438,28 @@ F 3 "" H 3800 4320 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:L L1
+L EtherkitKicadLibrary:L L1
 U 1 1 57A78685
 P 3530 4640
 F 0 "L1" V 3460 4685 50  0000 C CNN
 F 1 "10u" V 3390 4655 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 3530 4640 60  0001 C CNN
 F 3 "" H 3530 4640 60  0000 C CNN
+F 4 "MLF1608E100JT000" V 3530 4640 50  0001 C CNN "MPN"
+F 5 "" V 3530 4640 50  0001 C CNN "URL"
 	1    3530 4640
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Empyrean-rescue:C C2
+L EtherkitKicadLibrary:C C2
 U 1 1 57A78B28
 P 3755 4820
 F 0 "C2" H 3905 4855 50  0000 C CNN
 F 1 "10u" H 3860 4785 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3755 4820 60  0001 C CNN
 F 3 "" H 3755 4820 60  0000 C CNN
+F 4 "CC0603MRX5R5BB106" H 3755 4820 50  0001 C CNN "MPN"
+F 5 "" H 3755 4820 50  0001 C CNN "URL"
 	1    3755 4820
 	1    0    0    -1  
 $EndComp
@@ -531,24 +568,28 @@ DM
 Text GLabel 6715 4390 2    50   BiDi ~ 0
 DP
 $Comp
-L Empyrean-rescue:C C12
+L EtherkitKicadLibrary:C C12
 U 1 1 57A7D13D
 P 7045 4330
 F 0 "C12" H 7230 4370 50  0000 C CNN
 F 1 "100n" H 7155 4290 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7045 4330 60  0001 C CNN
 F 3 "" H 7045 4330 60  0000 C CNN
+F 4 "CC0603KRX7R9BB104" H 7045 4330 50  0001 C CNN "MPN"
+F 5 "" H 7045 4330 50  0001 C CNN "URL"
 	1    7045 4330
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:C C10
+L EtherkitKicadLibrary:C C10
 U 1 1 57A7D236
 P 5895 6425
 F 0 "C10" H 6070 6460 50  0000 C CNN
 F 1 "100n" H 6005 6385 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5895 6425 60  0001 C CNN
 F 3 "" H 5895 6425 60  0000 C CNN
+F 4 "CC0603KRX7R9BB104" H 5895 6425 50  0001 C CNN "MPN"
+F 5 "" H 5895 6425 50  0001 C CNN "URL"
 	1    5895 6425
 	1    0    0    -1  
 $EndComp
@@ -620,35 +661,41 @@ F 3 "" H 7045 4155 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:C C8
+L EtherkitKicadLibrary:C C8
 U 1 1 57A7F1AA
 P 5460 3060
 F 0 "C8" H 5315 3100 50  0000 C CNN
 F 1 "100n" H 5175 3025 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5460 3060 60  0001 C CNN
 F 3 "" H 5460 3060 60  0000 C CNN
+F 4 "CC0603KRX7R9BB104" H 5460 3060 50  0001 C CNN "MPN"
+F 5 "" H 5460 3060 50  0001 C CNN "URL"
 	1    5460 3060
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:C C9
+L EtherkitKicadLibrary:C C9
 U 1 1 57A7F2E7
 P 5690 3585
 F 0 "C9" H 5680 3800 50  0000 C CNN
 F 1 "1u" H 5640 3735 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5690 3585 60  0001 C CNN
 F 3 "" H 5690 3585 60  0000 C CNN
+F 4 "CC0603KRX5R8BB105" H 5690 3585 50  0001 C CNN "MPN"
+F 5 "" H 5690 3585 50  0001 C CNN "URL"
 	1    5690 3585
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:R R7
+L EtherkitKicadLibrary:R R7
 U 1 1 57A7F649
 P 5885 2875
 F 0 "R7" V 6055 2880 50  0000 C CNN
 F 1 "10k" V 5985 2880 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 5885 2875 60  0001 C CNN
 F 3 "" H 5885 2875 60  0000 C CNN
+F 4 "RC0603JR-0710KL" V 5885 2875 50  0001 C CNN "MPN"
+F 5 "" V 5885 2875 50  0001 C CNN "URL"
 	1    5885 2875
 	0    -1   -1   0   
 $EndComp
@@ -664,13 +711,15 @@ F 3 "" H 5590 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:R R8
+L EtherkitKicadLibrary:R R8
 U 1 1 57A7FF85
 P 6115 2595
 F 0 "R8" H 6255 2630 50  0000 C CNN
 F 1 "330" H 6255 2555 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 6115 2595 60  0001 C CNN
 F 3 "" H 6115 2595 60  0000 C CNN
+F 4 "RC0603FR-07330RL" H 6115 2595 50  0001 C CNN "MPN"
+F 5 "" H 6115 2595 50  0001 C CNN "URL"
 	1    6115 2595
 	1    0    0    -1  
 $EndComp
@@ -733,7 +782,7 @@ $EndComp
 Text GLabel 6165 2875 2    50   Input ~ 0
 RESET
 $Comp
-L Empyrean-rescue:CONN_01X03 J3
+L Connector_Generic:Conn_01x03 J3
 U 1 1 57A881FC
 P 9025 5975
 F 0 "J3" H 9025 6175 50  0000 C CNN
@@ -754,7 +803,7 @@ SCL
 Text GLabel 8835 4135 0    50   BiDi ~ 0
 SDA
 $Comp
-L EtherkitKicadLibrary:VIN #PWR029
+L Empyrean-rescue:VIN-EtherkitKicadLibrary #PWR029
 U 1 1 57A8A276
 P 8360 4315
 F 0 "#PWR029" H 8360 4275 30  0001 C CNN
@@ -780,7 +829,7 @@ AREF
 Text GLabel 8835 4735 0    50   Output ~ 0
 A0
 $Comp
-L Empyrean-rescue:CONN_01X15 J4
+L Connector_Generic:Conn_01x15 J4
 U 1 1 57A8AA49
 P 9035 4735
 F 0 "J4" H 9035 5535 50  0000 C CNN
@@ -791,7 +840,7 @@ F 3 "" H 9035 4735 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:CONN_01X15 J5
+L Connector_Generic:Conn_01x15 J5
 U 1 1 57A8AC67
 P 9385 4735
 F 0 "J5" H 9385 5535 50  0000 C CNN
@@ -875,24 +924,28 @@ F 3 "" H 9670 4010 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:PUSHBUTTON S1
+L EtherkitKicadLibrary:PUSHBUTTON S1
 U 1 1 57A9166C
 P 6545 2220
 F 0 "S1" H 6545 2105 50  0000 C CNN
 F 1 "Alps SKQMASE010" H 6545 2030 50  0000 C CNN
 F 2 "EtherkitKicadLibrary:Alps_SKQMASE010" H 6545 2220 60  0001 C CNN
 F 3 "" H 6545 2220 60  0000 C CNN
+F 4 "SKQMASE010" H 6545 2220 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/ALPS/SKQMASE010?qs=%2Fha2pyFaduh3HXjNFkNhbQtAFiUcDYFhYBM6TW7FNTE%3D" H 6545 2220 50  0001 C CNN "URL"
 	1    6545 2220
 	1    0    0    -1  
 $EndComp
 $Comp
-L Empyrean-rescue:CRYSTAL X1
+L EtherkitKicadLibrary:CRYSTAL X1
 U 1 1 57A919D8
 P 4335 4080
 F 0 "X1" V 3975 3855 50  0000 C CNN
 F 1 "ECS-.327-12.5-34B-TR" V 4060 4295 50  0000 C CNN
 F 2 "EtherkitKicadLibrary:ECS_ECS-.327-12.5-34B-TR" H 4335 4080 60  0001 C CNN
 F 3 "" H 4335 4080 60  0000 C CNN
+F 4 "ECS-.327-12.534B-TR" V 4335 4080 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/ECS/ECS-327-125-34B-TR?qs=xCP1SmiXvZHPyAjhnmNtEw%3D%3D" V 4335 4080 50  0001 C CNN "URL"
 	1    4335 4080
 	0    1    1    0   
 $EndComp
@@ -1123,13 +1176,15 @@ F 3 "" H 5665 1420 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Empyrean-rescue:C C11
+L EtherkitKicadLibrary:C C11
 U 1 1 58B22849
 P 6255 3440
 F 0 "C11" H 6440 3480 50  0000 C CNN
 F 1 "100n" H 6365 3400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6255 3440 60  0001 C CNN
 F 3 "" H 6255 3440 60  0000 C CNN
+F 4 "CC0603KRX7R9BB104" H 6255 3440 50  0001 C CNN "MPN"
+F 5 "" H 6255 3440 50  0001 C CNN "URL"
 	1    6255 3440
 	1    0    0    -1  
 $EndComp
@@ -1217,7 +1272,7 @@ F 3 "" H 1740 1030 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EtherkitKicadLibrary:VUSB #PWR030
+L Empyrean-rescue:VUSB-EtherkitKicadLibrary #PWR030
 U 1 1 5C404444
 P 8490 4195
 F 0 "#PWR030" H 8490 4155 30  0001 C CNN
@@ -1246,7 +1301,7 @@ Wire Wire Line
 Wire Wire Line
 	1540 1030 1355 1030
 $Comp
-L EtherkitKicadLibrary:VUSB #PWR03
+L Empyrean-rescue:VUSB-EtherkitKicadLibrary #PWR03
 U 1 1 5C457DD6
 P 1355 1000
 F 0 "#PWR03" H 1355 960 30  0001 C CNN
@@ -1261,4 +1316,17 @@ Wire Wire Line
 Connection ~ 1355 1030
 Wire Wire Line
 	1355 1030 1310 1030
+$Comp
+L EtherkitKicadLibrary:R R4
+U 1 1 57A678B4
+P 2000 2265
+F 0 "R4" H 1880 2215 50  0000 C CNN
+F 1 "330" H 1855 2295 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 2000 2265 60  0001 C CNN
+F 3 "" H 2000 2265 60  0000 C CNN
+F 4 "RC0603FR-07330RL" H 2000 2265 50  0001 C CNN "MPN"
+F 5 "" H 2000 2265 50  0001 C CNN "URL"
+	1    2000 2265
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

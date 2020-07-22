@@ -1,7 +1,7 @@
 Empyrean Alpha/Beta BOM
-Rev B
+Rev A
 Etherkit
-9 January 2020
+22 July 2020
 
 | Part (marking)                  | Qty  | Ref                            | P/N
 ======================================================================================================

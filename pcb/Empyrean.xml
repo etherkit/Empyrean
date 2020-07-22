@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/jason/Nextcloud/Etherkit/git/Empyrean/pcb/Empyrean.sch</source>
-    <date>Tue 18 Sep 2018 02:25:04 PM PDT</date>
-    <tool>Eeschema 5.0.0-fee4fd1~66~ubuntu18.04.1</tool>
+    <date>Sun 07 Jun 2020 02:09:38 PM PDT</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~86~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Empyrean Alpha/Beta</title>
         <company>Etherkit</company>
-        <rev>A</rev>
-        <date>2017-03-04</date>
+        <rev>B</rev>
+        <date>2020-01-09</date>
         <source>Empyrean.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -23,13 +23,21 @@
       <value>ATSAMD21GxA</value>
       <footprint>EtherkitKicadLibrary:TQFP-48_7x7mm_Pitch0.5mm</footprint>
       <datasheet>DOCUMENTATION</datasheet>
-      <libsource lib="Empyrean-rescue" part="ATSAMD21G18A" description=""/>
+      <fields>
+        <field name="MPN">ATSAMD21G18A-AUT</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Microchip-Technology/ATSAMD21G18A-AUT?qs=%2Fha2pyFadugBn%2Fe%252Bemax1T7pJzG67%252B%252B1Mk68qSvIsRnh12UEDqBc8A%3D%3D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="ATSAMD21G18A" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A6661C</tstamp>
     </comp>
     <comp ref="J1">
       <value>FCI 10118194-0001LF</value>
       <footprint>EtherkitKicadLibrary:FCI_10118194-0001LF</footprint>
+      <fields>
+        <field name="MPN">10118194-0001LF</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Amphenol-FCI/10118194-0001LF?qs=%2Fha2pyFadugHQYubHEjQrWaf71KglMlHbfZ%2FBmSxIoqAM0lAnkBayw%3D%3D</field>
+      </fields>
       <libsource lib="Empyrean-rescue" part="USB_OTG" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A66B51</tstamp>
@@ -37,307 +45,450 @@
     <comp ref="VR1">
       <value>CG0603MLC-05E</value>
       <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="VR" description=""/>
+      <fields>
+        <field name="MPN">CG0603MLC-05E</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Bourns/CG0603MLC-05E?qs=%2Fha2pyFaduj8GWc5RpRwWsoz%252BsBNDfM0b%2FMwO0m8cAS%252B28tb9AwLWQ%3D%3D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="VR" description="VARISTANCE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A66D8A</tstamp>
     </comp>
     <comp ref="VR2">
       <value>CG0603MLC-05E</value>
       <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="VR" description=""/>
+      <fields>
+        <field name="MPN">CG0603MLC-05E</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Bourns/CG0603MLC-05E?qs=%2Fha2pyFaduj8GWc5RpRwWsoz%252BsBNDfM0b%2FMwO0m8cAS%252B28tb9AwLWQ%3D%3D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="VR" description="VARISTANCE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A66E0C</tstamp>
     </comp>
     <comp ref="R2">
       <value>1M</value>
       <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="R" description=""/>
+      <fields>
+        <field name="MPN">RC0603FR-071ML</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A66E86</tstamp>
     </comp>
     <comp ref="C1">
       <value>4.7n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="C" description=""/>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB472</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A66F0D</tstamp>
-    </comp>
-    <comp ref="Q3">
-      <value>DMG1013T-7</value>
-      <footprint>EtherkitKicadLibrary:SOT523</footprint>
-      <libsource lib="Empyrean-rescue" part="MOS_P" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A66FE6</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>100k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A671AE</tstamp>
     </comp>
     <comp ref="F1">
       <value>Bel 0ZCH0050FF2G</value>
       <footprint>Resistors_SMD:R_1210</footprint>
+      <fields>
+        <field name="MPN">0ZCH0050FF2G</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Bel-Fuse/0ZCH0050FF2G?qs=%2Fha2pyFaduhB6rNO2vBn0J9xUJKMLnoy9n0uu5jGJT63qAbv1B9xxA%3D%3D</field>
+      </fields>
       <libsource lib="Empyrean-rescue" part="FUSE" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A67536</tstamp>
     </comp>
-    <comp ref="Q4">
-      <value>DMG1012UW-7</value>
-      <footprint>EtherkitKicadLibrary:SOT523</footprint>
-      <libsource lib="Empyrean-rescue" part="MOS_N" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A6761F</tstamp>
-    </comp>
-    <comp ref="Q2">
-      <value>DMG1013T-7</value>
-      <footprint>EtherkitKicadLibrary:SOT523</footprint>
-      <libsource lib="Empyrean-rescue" part="MOS_P" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A6769D</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>100k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A6774B</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>100k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A67832</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>330</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A678B4</tstamp>
-    </comp>
     <comp ref="U1">
       <value>LP2985</value>
       <footprint>EtherkitKicadLibrary:SOT23-5</footprint>
-      <libsource lib="Empyrean-rescue" part="LP2985" description=""/>
+      <fields>
+        <field name="MPN">LP2985-33DBVR</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Texas-Instruments/LP2985-33DBVR?qs=paYhMW8qfiswyUdMjD%2FxlQ%3D%3D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="LP2985" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A67B16</tstamp>
     </comp>
     <comp ref="C3">
       <value>1u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="C" description=""/>
+      <fields>
+        <field name="MPN">CC0603KRX5R8BB105</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A67C0D</tstamp>
     </comp>
     <comp ref="C7">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="C" description=""/>
+      <fields>
+        <field name="MPN">CC0603MRX5R5BB106</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A67CC8</tstamp>
     </comp>
-    <comp ref="R9">
+    <comp ref="R6">
       <value>330</value>
       <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="R" description=""/>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A67EB2</tstamp>
     </comp>
     <comp ref="D4">
-      <value>Green</value>
+      <value>Red</value>
       <footprint>EtherkitKicadLibrary:Lite-On_LTST-C170</footprint>
-      <libsource lib="Empyrean-rescue" part="LED" description=""/>
+      <fields>
+        <field name="MPN">LTST-C170KRKT</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Lite-On/LTST-C170KRKT?qs=%2Fha2pyFadugHsX7bdQzWjFN6DawqxaLJ%252Bmpz6ojJ8%2F0T3%2F9EyXbtKw%3D%3D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="LED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A67FEC</tstamp>
     </comp>
     <comp ref="R1">
       <value>330</value>
       <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="R" description=""/>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A68B8B</tstamp>
     </comp>
     <comp ref="D1">
-      <value>Red</value>
+      <value>Green</value>
       <footprint>EtherkitKicadLibrary:Lite-On_LTST-C170</footprint>
-      <libsource lib="Empyrean-rescue" part="LED" description=""/>
+      <fields>
+        <field name="MPN">LTST-C170KGKT</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Lite-On/LTST-C170KGKT?qs=%2Fha2pyFadugHsX7bdQzWjEu%252BWKML1FbmH%252B3MRHTAbdfPlg7VCKFMAg%3D%3D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="LED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A68B91</tstamp>
     </comp>
-    <comp ref="R4">
+    <comp ref="R3">
       <value>330</value>
       <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="R" description=""/>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A68CE3</tstamp>
     </comp>
     <comp ref="D2">
       <value>Yellow</value>
       <footprint>EtherkitKicadLibrary:Lite-On_LTST-C170</footprint>
-      <libsource lib="Empyrean-rescue" part="LED" description=""/>
+      <fields>
+        <field name="MPN">LTST-C170KSKT</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Lite-On/LTST-C170KSKT?qs=%2Fha2pyFadugHsX7bdQzWjPJjYc2k%2FdYIzn%252Bj3%252BUzEpkZi2tNvovhgQ%3D%3D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="LED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A68CE9</tstamp>
     </comp>
     <comp ref="J2">
       <value>Harwin M50-3500542</value>
       <footprint>EtherkitKicadLibrary:Harwin_M50-3500542</footprint>
-      <libsource lib="Empyrean-rescue" part="CONN_02X05" description=""/>
+      <libsource lib="EtherkitKicadLibrary" part="CONN_02X05" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A69079</tstamp>
     </comp>
     <comp ref="C6">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="C" description=""/>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A6A266</tstamp>
     </comp>
-    <comp ref="R6">
+    <comp ref="R5">
       <value>330</value>
       <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="R" description=""/>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A72C6C</tstamp>
     </comp>
     <comp ref="D3">
       <value>Blue</value>
       <footprint>EtherkitKicadLibrary:Lite-On_LTST-C170</footprint>
-      <libsource lib="Empyrean-rescue" part="LED" description=""/>
+      <fields>
+        <field name="MPN">LTST-C170TBKT</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Lite-On/LTST-C170TBKT?qs=%2Fha2pyFadugHsX7bdQzWjLO%2FRjeTaS3h5zpSfHaKZ9BsXDSKzdqHMA%3D%3D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="LED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A72C72</tstamp>
     </comp>
     <comp ref="Q1">
-      <value>DMG1012UW-7</value>
+      <value>2N7002TQ</value>
       <footprint>EtherkitKicadLibrary:SOT523</footprint>
-      <libsource lib="Empyrean-rescue" part="MOS_N" description=""/>
+      <fields>
+        <field name="MPN">2N7002TQ-7-F</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Diodes-Incorporated/2N7002TQ-7-F?qs=%2Fha2pyFadujcX%252BtqCA5T6s0xSna2kTvHUeEdhD%252BtzEEc0WZUJrl9Hg%3D%3D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="MOS_N" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A72D68</tstamp>
     </comp>
     <comp ref="C4">
       <value>15</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="C" description=""/>
+      <fields>
+        <field name="MPN">GCM1885C1H150JA16D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A77A08</tstamp>
     </comp>
     <comp ref="C5">
       <value>15</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="C" description=""/>
+      <fields>
+        <field name="MPN">GCM1885C1H150JA16D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A77FF0</tstamp>
     </comp>
     <comp ref="L1">
       <value>10u</value>
       <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="L" description=""/>
+      <fields>
+        <field name="MPN">MLF1608E100JT000</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="L" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A78685</tstamp>
     </comp>
     <comp ref="C2">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="C" description=""/>
+      <fields>
+        <field name="MPN">CC0603MRX5R5BB106</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A78B28</tstamp>
     </comp>
     <comp ref="C12">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="C" description=""/>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A7D13D</tstamp>
     </comp>
     <comp ref="C10">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="C" description=""/>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A7D236</tstamp>
     </comp>
     <comp ref="C8">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="C" description=""/>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A7F1AA</tstamp>
     </comp>
     <comp ref="C9">
       <value>1u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="C" description=""/>
+      <fields>
+        <field name="MPN">CC0603KRX5R8BB105</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A7F2E7</tstamp>
     </comp>
-    <comp ref="R10">
+    <comp ref="R7">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="R" description=""/>
+      <fields>
+        <field name="MPN">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A7F649</tstamp>
     </comp>
-    <comp ref="R11">
+    <comp ref="R8">
       <value>330</value>
       <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="R" description=""/>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A7FF85</tstamp>
     </comp>
     <comp ref="J3">
       <value>SPI</value>
       <footprint>EtherkitKicadLibrary:Pin_Header_Straight_1x03_NoBorder</footprint>
-      <libsource lib="Empyrean-rescue" part="CONN_01X03" description=""/>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A881FC</tstamp>
     </comp>
     <comp ref="J4">
       <value>CONN_01X15</value>
       <footprint>EtherkitKicadLibrary:Pin_Header_Straight_1x15_NoBorder</footprint>
-      <libsource lib="Empyrean-rescue" part="CONN_01X15" description=""/>
+      <libsource lib="Connector_Generic" part="Conn_01x15" description="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A8AA49</tstamp>
     </comp>
     <comp ref="J5">
       <value>CONN_01X15</value>
       <footprint>EtherkitKicadLibrary:Pin_Header_Straight_1x15_NoBorder</footprint>
-      <libsource lib="Empyrean-rescue" part="CONN_01X15" description=""/>
+      <libsource lib="Connector_Generic" part="Conn_01x15" description="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A8AC67</tstamp>
     </comp>
     <comp ref="S1">
       <value>Alps SKQMASE010</value>
       <footprint>EtherkitKicadLibrary:Alps_SKQMASE010</footprint>
-      <libsource lib="Empyrean-rescue" part="PUSHBUTTON" description=""/>
+      <fields>
+        <field name="MPN">SKQMASE010</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/ALPS/SKQMASE010?qs=%2Fha2pyFaduh3HXjNFkNhbQtAFiUcDYFhYBM6TW7FNTE%3D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="PUSHBUTTON" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A9166C</tstamp>
     </comp>
     <comp ref="X1">
       <value>ECS-.327-12.5-34B-TR</value>
       <footprint>EtherkitKicadLibrary:ECS_ECS-.327-12.5-34B-TR</footprint>
-      <libsource lib="Empyrean-rescue" part="CRYSTAL" description=""/>
+      <fields>
+        <field name="MPN">ECS-.327-12.534B-TR</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/ECS/ECS-327-125-34B-TR?qs=xCP1SmiXvZHPyAjhnmNtEw%3D%3D</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="CRYSTAL" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A919D8</tstamp>
     </comp>
-    <comp ref="JP1">
+    <comp ref="JP2">
       <value>Power LED Enable</value>
-      <footprint>EtherkitKicadLibrary:SOLDER_JUMPER</footprint>
-      <libsource lib="Empyrean-rescue" part="JUMPER" description=""/>
+      <footprint>EtherkitKicadLibrary:SOLDER_JUMPER_NC</footprint>
+      <libsource lib="EtherkitKicadLibrary" part="JUMPER-NC" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58ADDA85</tstamp>
     </comp>
     <comp ref="C11">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="Empyrean-rescue" part="C" description=""/>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58B22849</tstamp>
     </comp>
+    <comp ref="JP1">
+      <value>VUSB Disable</value>
+      <footprint>EtherkitKicadLibrary:SOLDER_JUMPER_NC</footprint>
+      <libsource lib="EtherkitKicadLibrary" part="JUMPER-NC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3DDD16</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <libsource lib="EtherkitKicadLibrary" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A678B4</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="Empyrean-rescue" part="ATSAMD21G18A">
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x15">
+      <description>Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Empyrean-rescue" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Empyrean-rescue" part="USB_OTG">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtherkitKicadLibrary" part="ATSAMD21G18A">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">ATSAMD21G18A</field>
@@ -395,7 +546,7 @@
         <pin num="48" name="PB03" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Empyrean-rescue" part="C">
+    <libpart lib="EtherkitKicadLibrary" part="C">
       <footprints>
         <fp>R?</fp>
         <fp>SM0603</fp>
@@ -411,53 +562,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Empyrean-rescue" part="CONN_01X03">
-      <footprints>
-        <fp>Pin_Header_Straight_1X*</fp>
-        <fp>Pin_Header_Angled_1X*</fp>
-        <fp>Socket_Strip_Straight_1X*</fp>
-        <fp>Socket_Strip_Angled_1X*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">CONN_01X03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Empyrean-rescue" part="CONN_01X15">
-      <footprints>
-        <fp>Pin_Header_Straight_1X*</fp>
-        <fp>Pin_Header_Angled_1X*</fp>
-        <fp>Socket_Strip_Straight_1X*</fp>
-        <fp>Socket_Strip_Angled_1X*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">CONN_01X15</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-        <pin num="13" name="P13" type="passive"/>
-        <pin num="14" name="P14" type="passive"/>
-        <pin num="15" name="P15" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Empyrean-rescue" part="CONN_02X05">
+    <libpart lib="EtherkitKicadLibrary" part="CONN_02X05">
       <footprints>
         <fp>Pin_Header_Straight_2X05</fp>
         <fp>Pin_Header_Angled_2X05</fp>
@@ -481,7 +586,7 @@
         <pin num="10" name="P10" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Empyrean-rescue" part="CRYSTAL">
+    <libpart lib="EtherkitKicadLibrary" part="CRYSTAL">
       <fields>
         <field name="Reference">X</field>
         <field name="Value">CRYSTAL</field>
@@ -491,27 +596,17 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Empyrean-rescue" part="FUSE">
-      <fields>
-        <field name="Reference">F</field>
-        <field name="Value">FUSE</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="Empyrean-rescue" part="JUMPER">
+    <libpart lib="EtherkitKicadLibrary" part="JUMPER-NC">
       <fields>
         <field name="Reference">JP</field>
-        <field name="Value">JUMPER</field>
+        <field name="Value">JUMPER-NC</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Empyrean-rescue" part="L">
+    <libpart lib="EtherkitKicadLibrary" part="L">
       <fields>
         <field name="Reference">L</field>
         <field name="Value">L</field>
@@ -521,7 +616,7 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Empyrean-rescue" part="LED">
+    <libpart lib="EtherkitKicadLibrary" part="LED">
       <footprints>
         <fp>LED-3MM</fp>
         <fp>LED-5MM</fp>
@@ -540,7 +635,7 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Empyrean-rescue" part="LP2985">
+    <libpart lib="EtherkitKicadLibrary" part="LP2985">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">LP2985</field>
@@ -553,7 +648,10 @@
         <pin num="5" name="VOUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="Empyrean-rescue" part="MOS_N">
+    <libpart lib="EtherkitKicadLibrary" part="MOS_N">
+      <aliases>
+        <alias>MOSFET_N</alias>
+      </aliases>
       <fields>
         <field name="Reference">Q</field>
         <field name="Value">MOS_N</field>
@@ -564,18 +662,7 @@
         <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Empyrean-rescue" part="MOS_P">
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">MOS_P</field>
-      </fields>
-      <pins>
-        <pin num="1" name="S" type="passive"/>
-        <pin num="2" name="G" type="input"/>
-        <pin num="3" name="D" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Empyrean-rescue" part="PUSHBUTTON">
+    <libpart lib="EtherkitKicadLibrary" part="PUSHBUTTON">
       <fields>
         <field name="Reference">S</field>
         <field name="Value">PUSHBUTTON</field>
@@ -585,7 +672,7 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Empyrean-rescue" part="R">
+    <libpart lib="EtherkitKicadLibrary" part="R">
       <footprints>
         <fp>R?</fp>
         <fp>SM0603</fp>
@@ -601,24 +688,8 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Empyrean-rescue" part="USB_OTG">
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB_OTG</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VCC" type="power_out"/>
-        <pin num="2" name="D-" type="passive"/>
-        <pin num="3" name="D+" type="passive"/>
-        <pin num="4" name="ID" type="power_in"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="shield" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Empyrean-rescue" part="VR">
+    <libpart lib="EtherkitKicadLibrary" part="VR">
+      <description>VARISTANCE</description>
       <fields>
         <field name="Reference">VR</field>
         <field name="Value">VR</field>
@@ -630,314 +701,303 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
     <library logical="Empyrean-rescue">
       <uri>/home/jason/Nextcloud/Etherkit/git/Empyrean/pcb/Empyrean-rescue.lib</uri>
     </library>
+    <library logical="EtherkitKicadLibrary">
+      <uri>/home/jason/Nextcloud/Etherkit/git/EtherkitKicadLibrary/EtherkitKicadLibrary.lib</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(F1-Pad1)">
-      <node ref="F1" pin="1"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="2" name="Net-(F1-Pad2)">
+    <net code="1" name="VIN">
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="1"/>
       <node ref="F1" pin="2"/>
-      <node ref="Q3" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J4" pin="4"/>
     </net>
-    <net code="3" name="Net-(C1-Pad2)">
-      <node ref="C1" pin="2"/>
-      <node ref="J1" pin="6"/>
-      <node ref="R2" pin="2"/>
+    <net code="2" name="DP">
+      <node ref="U2" pin="34"/>
+      <node ref="VR1" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="3" name="DM">
+      <node ref="J1" pin="2"/>
+      <node ref="U2" pin="33"/>
+      <node ref="VR2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad2)">
       <node ref="VR2" pin="2"/>
+      <node ref="J1" pin="6"/>
       <node ref="VR1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R2" pin="2"/>
     </net>
-    <net code="4" name="+3.3V">
-      <node ref="JP1" pin="1"/>
-      <node ref="L1" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="U2" pin="36"/>
-      <node ref="R10" pin="1"/>
-      <node ref="U2" pin="17"/>
+    <net code="5" name="+3.3V">
       <node ref="J2" pin="1"/>
-      <node ref="U1" pin="5"/>
-      <node ref="C7" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="C10" pin="1"/>
-      <node ref="J5" pin="1"/>
-      <node ref="J4" pin="5"/>
-      <node ref="C12" pin="1"/>
       <node ref="C8" pin="1"/>
-      <node ref="U2" pin="44"/>
-    </net>
-    <net code="5" name="GND">
-      <node ref="Q4" pin="1"/>
-      <node ref="R7" pin="2"/>
-      <node ref="D4" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="S1" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U2" pin="35"/>
-      <node ref="J5" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="C11" pin="2"/>
-      <node ref="U2" pin="5"/>
-      <node ref="U2" pin="42"/>
-      <node ref="J1" pin="5"/>
-      <node ref="J4" pin="6"/>
-      <node ref="R2" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U2" pin="18"/>
-      <node ref="C9" pin="1"/>
-      <node ref="J2" pin="3"/>
-      <node ref="C10" pin="2"/>
-      <node ref="J2" pin="5"/>
-      <node ref="C6" pin="2"/>
-      <node ref="J2" pin="9"/>
-    </net>
-    <net code="6" name="Net-(Q3-Pad2)">
-      <node ref="R8" pin="2"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="Q4" pin="3"/>
-    </net>
-    <net code="7" name="Net-(Q2-Pad1)">
-      <node ref="Q4" pin="2"/>
-      <node ref="Q2" pin="1"/>
       <node ref="R7" pin="1"/>
-    </net>
-    <net code="8" name="Net-(J1-Pad4)">
-      <node ref="R5" pin="2"/>
-      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="5"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="44"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="36"/>
+      <node ref="U2" pin="17"/>
       <node ref="R3" pin="1"/>
-      <node ref="Q2" pin="2"/>
+      <node ref="J4" pin="5"/>
+      <node ref="L1" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="C10" pin="1"/>
     </net>
-    <net code="9" name="Net-(C6-Pad1)">
+    <net code="6" name="Net-(D3-Pad2)">
+      <node ref="Q1" pin="3"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D2-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C6-Pad1)">
       <node ref="U1" pin="4"/>
       <node ref="C6" pin="1"/>
     </net>
-    <net code="10" name="Net-(D4-Pad1)">
-      <node ref="R9" pin="2"/>
+    <net code="11" name="Net-(D4-Pad1)">
+      <node ref="R6" pin="2"/>
       <node ref="D4" pin="1"/>
     </net>
-    <net code="11" name="A4">
-      <node ref="J4" pin="12"/>
-      <node ref="U2" pin="10"/>
-    </net>
-    <net code="12" name="D5">
-      <node ref="J5" pin="12"/>
-      <node ref="U2" pin="24"/>
-    </net>
-    <net code="13" name="D6">
-      <node ref="U2" pin="29"/>
-      <node ref="J5" pin="11"/>
-    </net>
-    <net code="14" name="D7">
-      <node ref="U2" pin="30"/>
-      <node ref="J5" pin="10"/>
-    </net>
-    <net code="15" name="A1">
-      <node ref="U2" pin="7"/>
-      <node ref="J4" pin="9"/>
-    </net>
-    <net code="16" name="A0">
-      <node ref="J4" pin="8"/>
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="17" name="AREF">
-      <node ref="J4" pin="7"/>
-      <node ref="U2" pin="4"/>
-    </net>
-    <net code="18" name="VIN">
-      <node ref="U1" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="Q3" pin="1"/>
-      <node ref="J4" pin="4"/>
-      <node ref="C3" pin="1"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="19" name="SDA">
-      <node ref="J4" pin="2"/>
-      <node ref="U2" pin="31"/>
-    </net>
-    <net code="20" name="D1/UART_TX">
-      <node ref="J4" pin="15"/>
-      <node ref="U2" pin="15"/>
-    </net>
-    <net code="21" name="D0/UART_RX">
-      <node ref="J4" pin="14"/>
-      <node ref="U2" pin="16"/>
-    </net>
-    <net code="22" name="A5">
-      <node ref="J4" pin="13"/>
-      <node ref="U2" pin="47"/>
-    </net>
-    <net code="23" name="D4">
-      <node ref="J5" pin="13"/>
-      <node ref="U2" pin="13"/>
-    </net>
-    <net code="24" name="A3">
-      <node ref="J4" pin="11"/>
-      <node ref="U2" pin="9"/>
-    </net>
-    <net code="25" name="A2">
-      <node ref="J4" pin="10"/>
-      <node ref="U2" pin="8"/>
-    </net>
-    <net code="26" name="SCL">
-      <node ref="J4" pin="1"/>
-      <node ref="U2" pin="32"/>
-    </net>
-    <net code="27" name="D8">
-      <node ref="J5" pin="9"/>
-      <node ref="U2" pin="11"/>
-    </net>
-    <net code="28" name="D9">
-      <node ref="U2" pin="12"/>
-      <node ref="J5" pin="8"/>
-    </net>
-    <net code="29" name="D10">
-      <node ref="J5" pin="7"/>
-      <node ref="U2" pin="27"/>
-    </net>
-    <net code="30" name="D11">
-      <node ref="J5" pin="6"/>
-      <node ref="U2" pin="25"/>
-    </net>
-    <net code="31" name="D12">
-      <node ref="U2" pin="28"/>
-      <node ref="J5" pin="5"/>
-    </net>
-    <net code="32" name="D13">
+    <net code="12" name="D13">
+      <node ref="Q1" pin="2"/>
       <node ref="U2" pin="26"/>
       <node ref="J5" pin="4"/>
-      <node ref="Q1" pin="2"/>
     </net>
-    <net code="33" name="RESET">
-      <node ref="J4" pin="3"/>
-      <node ref="U2" pin="40"/>
-      <node ref="J5" pin="3"/>
-      <node ref="R10" pin="2"/>
+    <net code="13" name="RESET">
       <node ref="J2" pin="10"/>
+      <node ref="J5" pin="3"/>
+      <node ref="R8" pin="2"/>
       <node ref="C11" pin="1"/>
-      <node ref="R11" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="40"/>
     </net>
-    <net code="34" name="D2">
+    <net code="14" name="D2">
       <node ref="J5" pin="15"/>
       <node ref="U2" pin="23"/>
     </net>
-    <net code="35" name="D3">
-      <node ref="J5" pin="14"/>
+    <net code="15" name="D3">
       <node ref="U2" pin="14"/>
+      <node ref="J5" pin="14"/>
     </net>
-    <net code="36" name="Net-(JP1-Pad2)">
-      <node ref="JP1" pin="2"/>
-      <node ref="R9" pin="1"/>
+    <net code="16" name="D4">
+      <node ref="J5" pin="13"/>
+      <node ref="U2" pin="13"/>
     </net>
-    <net code="37" name="Net-(C4-Pad1)">
-      <node ref="X1" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U2" pin="1"/>
+    <net code="17" name="D5">
+      <node ref="U2" pin="24"/>
+      <node ref="J5" pin="12"/>
+    </net>
+    <net code="18" name="D6">
+      <node ref="U2" pin="29"/>
+      <node ref="J5" pin="11"/>
+    </net>
+    <net code="19" name="D7">
+      <node ref="U2" pin="30"/>
+      <node ref="J5" pin="10"/>
+    </net>
+    <net code="20" name="A1">
+      <node ref="J4" pin="9"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="21" name="A0">
+      <node ref="J4" pin="8"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="22" name="AREF">
+      <node ref="U2" pin="4"/>
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="23" name="D12">
+      <node ref="J5" pin="5"/>
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="24" name="SDA">
+      <node ref="U2" pin="31"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="25" name="D1/UART_TX">
+      <node ref="J4" pin="15"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="26" name="D0/UART_RX">
+      <node ref="U2" pin="16"/>
+      <node ref="J4" pin="14"/>
+    </net>
+    <net code="27" name="A5">
+      <node ref="J4" pin="13"/>
+      <node ref="U2" pin="47"/>
+    </net>
+    <net code="28" name="A4">
+      <node ref="J4" pin="12"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="29" name="A3">
+      <node ref="J4" pin="11"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="30" name="A2">
+      <node ref="J4" pin="10"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="31" name="SCL">
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="32" name="GND">
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="42"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="S1" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="18"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J2" pin="9"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U2" pin="35"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="33" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="34" name="D8">
+      <node ref="J5" pin="9"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="35" name="D9">
+      <node ref="J5" pin="8"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="36" name="D10">
+      <node ref="J5" pin="7"/>
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="37" name="D11">
+      <node ref="U2" pin="25"/>
+      <node ref="J5" pin="6"/>
     </net>
     <net code="38" name="Net-(C2-Pad1)">
       <node ref="C2" pin="1"/>
       <node ref="L1" pin="2"/>
       <node ref="U2" pin="6"/>
     </net>
-    <net code="39" name="Net-(C5-Pad1)">
-      <node ref="X1" pin="2"/>
-      <node ref="U2" pin="2"/>
-      <node ref="C5" pin="1"/>
+    <net code="39" name="Net-(C4-Pad1)">
+      <node ref="X1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="1"/>
     </net>
-    <net code="40" name="Net-(R11-Pad1)">
-      <node ref="S1" pin="1"/>
-      <node ref="R11" pin="1"/>
+    <net code="40" name="Net-(JP2-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="JP2" pin="2"/>
     </net>
-    <net code="41" name="Net-(D3-Pad2)">
-      <node ref="Q1" pin="3"/>
-      <node ref="D3" pin="2"/>
+    <net code="41" name="VUSB">
+      <node ref="J4" pin="3"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="J1" pin="1"/>
     </net>
-    <net code="42" name="Net-(D3-Pad1)">
-      <node ref="D3" pin="1"/>
-      <node ref="R6" pin="2"/>
+    <net code="42" name="USB_HOST_EN">
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="41"/>
     </net>
-    <net code="43" name="Net-(D2-Pad1)">
+    <net code="43" name="Net-(J1-Pad4)">
       <node ref="R4" pin="2"/>
-      <node ref="D2" pin="1"/>
+      <node ref="J1" pin="4"/>
     </net>
-    <net code="44" name="Net-(D1-Pad1)">
-      <node ref="R1" pin="2"/>
-      <node ref="D1" pin="1"/>
+    <net code="44" name="Net-(F1-Pad1)">
+      <node ref="JP1" pin="2"/>
+      <node ref="F1" pin="1"/>
     </net>
-    <net code="45" name="Net-(C9-Pad2)">
-      <node ref="C9" pin="2"/>
+    <net code="45" name="Net-(R8-Pad1)">
+      <node ref="S1" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="46" name="Net-(C9-Pad2)">
       <node ref="U2" pin="43"/>
-    </net>
-    <net code="46" name="Net-(J2-Pad7)">
-      <node ref="J2" pin="7"/>
+      <node ref="C9" pin="2"/>
     </net>
     <net code="47" name="Net-(J2-Pad8)">
       <node ref="J2" pin="8"/>
     </net>
-    <net code="48" name="Net-(J2-Pad6)">
+    <net code="48" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="49" name="Net-(J2-Pad6)">
       <node ref="J2" pin="6"/>
     </net>
-    <net code="49" name="Net-(U2-Pad37)">
-      <node ref="U2" pin="37"/>
-    </net>
-    <net code="50" name="DP">
-      <node ref="U2" pin="34"/>
-      <node ref="J1" pin="3"/>
-      <node ref="VR1" pin="1"/>
-    </net>
-    <net code="51" name="DM">
-      <node ref="J1" pin="2"/>
-      <node ref="VR2" pin="1"/>
-      <node ref="U2" pin="33"/>
-    </net>
-    <net code="52" name="Net-(U2-Pad38)">
-      <node ref="U2" pin="38"/>
-    </net>
-    <net code="53" name="Net-(U2-Pad22)">
+    <net code="50" name="Net-(U2-Pad22)">
       <node ref="U2" pin="22"/>
     </net>
-    <net code="54" name="RX_LED">
-      <node ref="D2" pin="2"/>
+    <net code="51" name="RX_LED">
       <node ref="U2" pin="48"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="55" name="SWDIO">
-      <node ref="J2" pin="2"/>
+    <net code="52" name="SWDIO">
       <node ref="U2" pin="46"/>
+      <node ref="J2" pin="2"/>
     </net>
-    <net code="56" name="SWDCLK">
-      <node ref="J2" pin="4"/>
+    <net code="53" name="SWDCLK">
       <node ref="U2" pin="45"/>
+      <node ref="J2" pin="4"/>
     </net>
-    <net code="57" name="USB_HOST_EN">
-      <node ref="U2" pin="41"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="58" name="TX_LED">
-      <node ref="D1" pin="2"/>
+    <net code="54" name="TX_LED">
       <node ref="U2" pin="39"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="59" name="SPI_SCK">
+    <net code="55" name="Net-(U2-Pad38)">
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="56" name="Net-(U2-Pad37)">
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="57" name="SPI_SCK">
       <node ref="J3" pin="3"/>
       <node ref="U2" pin="20"/>
     </net>
-    <net code="60" name="SPI_MISO">
-      <node ref="J3" pin="2"/>
+    <net code="58" name="SPI_MISO">
       <node ref="U2" pin="21"/>
+      <node ref="J3" pin="2"/>
     </net>
-    <net code="61" name="SPI_MOSI">
-      <node ref="J3" pin="1"/>
+    <net code="59" name="SPI_MOSI">
       <node ref="U2" pin="19"/>
+      <node ref="J3" pin="1"/>
     </net>
   </nets>
 </export>
